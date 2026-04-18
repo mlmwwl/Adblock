@@ -14,20 +14,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Download Mihomo Tool
+      - name: Download Mihomo
         run: |
-          # 获取最新版本的下载 URL (针对 Linux amd64)
-          DOWNLOAD_URL=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | grep "browser_download_url.*linux-amd64-v.*\.tar\.gz" | cut -d '"' -f 4 | head -n 1)
-          
+          # 获取下载链接并确保它是二进制
+          DOWNLOAD_URL=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | jq -r '.assets[] | select(.name | contains("linux-amd64") and endswith(".gz")) | .browser_download_url' | head -n 1)
           echo "Downloading from: $DOWNLOAD_URL"
-          
-          # 下载并解压
-          curl -L -o mihomo.tar.gz "$DOWNLOAD_URL"
-          tar -xzf mihomo.tar.gz
-          
-          # 寻找解压后的二进制文件并重命名为 mihomo
-          # 因为解压出来的文件名通常带版本号，如 mihomo-linux-amd64-v1.18.3
-          find . -name "mihomo-linux-amd64-*" -exec mv {} mihomo \;
+          curl -L -o mihomo.gz "$DOWNLOAD_URL"
+          gunzip -f mihomo.gz
+          find . -maxdepth 1 -type f -name "mihomo-linux-amd64*" -exec mv {} mihomo \;
           chmod +x mihomo
 
       - name: Convert to MRS
