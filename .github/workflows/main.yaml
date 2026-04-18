@@ -19,12 +19,21 @@ jobs:
 
       - name: Download Mihomo
         run: |
+          # 只匹配标准 linux-amd64 版本，排除 alpha、compatible、go1xx 等变体
           DOWNLOAD_URL=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest \
-            | jq -r '.assets[] | select(.name | test("linux-amd64") and test("\\.gz$")) | .browser_download_url' \
-            | grep -v 'alpha\|compatible' | head -n 1)
+            | jq -r '.assets[] | select(
+                .name | test("linux-amd64")
+                and test("\\.gz$")
+                and (test("alpha|compatible|go1") | not)
+              ) | .browser_download_url' \
+            | head -n 1)
 
           echo "Downloading: $DOWNLOAD_URL"
-          curl -L -o mihomo.gz "$DOWNLOAD_URL"
+
+          # 使用 wget 自动跟随所有重定向，确保下载到真实文件
+          wget -q --show-progress -O mihomo.gz "$DOWNLOAD_URL"
+
+          echo "Downloaded size: $(du -sh mihomo.gz)"
           gunzip -f mihomo.gz
 
           EXTRACTED=$(find . -maxdepth 1 -type f -name 'mihomo*' ! -name '*.gz' | head -n 1)
