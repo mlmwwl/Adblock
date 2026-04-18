@@ -36,9 +36,6 @@ jobs:
           echo "Downloaded size: $(du -sh mihomo.gz)"
           gunzip -f mihomo.gz
 
-          EXTRACTED=$(find . -maxdepth 1 -type f -name 'mihomo*' ! -name '*.gz' | head -n 1)
-          echo "Extracted file: $EXTRACTED"
-          mv "$EXTRACTED" mihomo
           chmod +x mihomo
 
           ./mihomo -v
