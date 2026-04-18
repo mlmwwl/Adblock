@@ -36,12 +36,22 @@ jobs:
           name: adblock-ruleset
           path: adblock.mrs
 
-      - name: Deploy to Release/Branch
-        # 你可以选择将生成的 mrs 推送到一个新的分支（如 release 分支）或 Release 页面
+      - name: Deploy to Release Branch
         run: |
+          # 1. 创建一个临时文件夹，把生成的 mrs 拷进去
+          mkdir deploy
+          cp adblock.mrs deploy/
+          cd deploy
+
+          # 2. 初始化为一个全新的 git 仓库
+          git init
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git checkout -B release
+
+          # 3. 提交文件
           git add adblock.mrs
-          git commit -m "Update adblock.mrs at $(date)"
-          git push origin release --force
+          git commit -m "Auto-build MRS: $(date)"
+
+          # 4. 强行推送到远程仓库的 release 分支
+          # 注意：这里的 GITHUB_TOKEN 是 Actions 自动提供的，不需要你额外设置
+          git push "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:release --force
