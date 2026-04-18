@@ -16,19 +16,19 @@ jobs:
 
       - name: Download Mihomo Tool
         run: |
-          # 下载适合 Linux 的 mihomo 二进制文件（用于编译 mrs）
-          curl -L -o mihomo.tar.gz https://github.com/MetaCubeX/mihomo/releases/download/v1.18.3/mihomo-linux-amd64-v1.18.3.tar.gz
-          tar -xzf mihomo.tar.gz
-          chmod +x mihomo
-
-      - name: Aggregate and Sort Lists
-        run: |
-          # 合并 domain 和 tracker 文件夹下的所有文件内容
-          # 使用 find 避免文件过多导致的参数溢出，并确保只读取文件内容
-          find domain/ tracker/ -type f -exec cat {} + > combined_raw.txt
+          # 获取最新版本的下载 URL (针对 Linux amd64)
+          DOWNLOAD_URL=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | grep "browser_download_url.*linux-amd64-v.*\.tar\.gz" | cut -d '"' -f 4 | head -n 1)
           
-          # A-Z 排序并输出为最终的 txt 准备转换
-          sort combined_raw.txt | uniq > final_list.txt
+          echo "Downloading from: $DOWNLOAD_URL"
+          
+          # 下载并解压
+          curl -L -o mihomo.tar.gz "$DOWNLOAD_URL"
+          tar -xzf mihomo.tar.gz
+          
+          # 寻找解压后的二进制文件并重命名为 mihomo
+          # 因为解压出来的文件名通常带版本号，如 mihomo-linux-amd64-v1.18.3
+          find . -name "mihomo-linux-amd64-*" -exec mv {} mihomo \;
+          chmod +x mihomo
 
       - name: Convert to MRS
         run: |
