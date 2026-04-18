@@ -18,13 +18,24 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Download Mihomo
-        run: |
-          DOWNLOAD_URL=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | jq -r '.assets[] | select(.name | contains("linux-amd64") and endswith(".gz")) | .browser_download_url' | head -n 1)
-          curl -L -o mihomo.gz "$DOWNLOAD_URL"
-          gunzip -f mihomo.gz
-          mv mihomo-linux-amd64* mihomo 2>/dev/null || mv mihomo.linux-amd64* mihomo 2>/dev/null || true
-          chmod +x mihomo
+- name: Download Mihomo
+  run: |
+    DOWNLOAD_URL=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest \
+      | jq -r '.assets[] | select(.name | test("linux-amd64") and test("\\.gz$")) | .browser_download_url' \
+      | grep -v 'alpha\|compatible' | head -n 1)
+    
+    echo "Downloading: $DOWNLOAD_URL"
+    curl -L -o mihomo.gz "$DOWNLOAD_URL"
+    gunzip -f mihomo.gz
+    
+    # 找到解压后实际的文件名，统一重命名
+    EXTRACTED=$(find . -maxdepth 1 -type f -name 'mihomo*' ! -name '*.gz' | head -n 1)
+    echo "Extracted file: $EXTRACTED"
+    mv "$EXTRACTED" mihomo
+    chmod +x mihomo
+    
+    # 验证是否正确（convert 命令存在则说明版本正确）
+    ./mihomo -v
 
       - name: Aggregate and Sort Lists
         run: |
