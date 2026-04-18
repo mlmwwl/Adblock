@@ -34,34 +34,34 @@ jobs:
           # 打印前几行检查是否成功
           echo "First 5 domains:"
           head -n 5 final_list.txt
-
+  
       - name: Convert to MRS
         run: |
-          # [span_6](start_span)使用 mihomo 转换规则集[span_6](end_span)
-          # 注意：这里增加了输入输出检查
+          # 执行转换，行为模式设为 domain
           if [ -s "final_list.txt" ]; then
-            [span_7](start_span)./mihomo convert ruleset domain final_list.txt adblock.mrs[span_7](end_span)
+            ./mihomo convert ruleset domain final_list.txt adblock.mrs
           else
-            echo "Error: final_list.txt is empty or not found!"
-            [span_8](start_span)exit 1[span_8](end_span)
+            echo "Error: final_list.txt is empty!"
+            exit 1
           fi
           
-          [span_9](start_span)if [ -f "adblock.mrs" ]; then[span_9](end_span)
-            [span_10](start_span)echo "Success: adblock.mrs created."[span_10](end_span)
+          # 检查输出文件
+          if [ -f "adblock.mrs" ]; then
+            echo "Success: adblock.mrs created."
           else
-            [span_11](start_span)echo "Error: adblock.mrs not found."[span_11](end_span)
-            [span_12](start_span)exit 1[span_12](end_span)
+            echo "Error: Conversion failed."
+            exit 1
           fi
 
       - name: Deploy to Release Branch
         run: |
-          [span_13](start_span)mkdir deploy[span_13](end_span)
-          [span_14](start_span)cp adblock.mrs deploy/[span_14](end_span)
-          [span_15](start_span)cd deploy[span_15](end_span)
-          [span_16](start_span)git init[span_16](end_span)
-          [span_17](start_span)git config --local user.email "action@github.com"[span_17](end_span)
-          [span_18](start_span)git config --local user.name "GitHub Action"[span_18](end_span)
-          [span_19](start_span)git add adblock.mrs[span_19](end_span)
-          [span_20](start_span)git commit -m "Auto-build MRS: $(date)"[span_20](end_span)
-          # [span_21](start_span)推送至 release 分支[span_21](end_span)
-          [span_22](start_span)git push "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:release --force[span_22](end_span)
+          mkdir -p deploy
+          cp adblock.mrs deploy/
+          cd deploy
+          git init
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add adblock.mrs
+          git commit -m "Auto-build MRS: $(date)"
+          # 使用 GITHUB_TOKEN 强制推送到 release 分支
+          git push "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:release --force
