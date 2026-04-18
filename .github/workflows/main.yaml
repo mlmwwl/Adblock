@@ -49,7 +49,7 @@ jobs:
       - name: Convert to MRS
         run: |
           if [ -s "list/adblock.txt" ]; then
-            ./mihomo convert ruleset domain list/adblock.txt list/adblock.mrs
+            ./mihomo convert-ruleset domain text list/adblock.txt list/adblock.mrs
           else
             echo "Error: No domains found in domain/ or tracker/"
             exit 1
