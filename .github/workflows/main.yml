@@ -5,7 +5,7 @@ on:
     paths:
       - 'domain/**'
       - 'tracker/**'
-  workflow_dispatch: # 支持手动触发
+  workflow_dispatch:
 
 jobs:
   build:
@@ -16,51 +16,52 @@ jobs:
 
       - name: Download Mihomo
         run: |
-          # 获取下载链接并确保它是二进制
+          # [span_2](start_span)获取最新版下载链接[span_2](end_span)
           DOWNLOAD_URL=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | jq -r '.assets[] | select(.name | contains("linux-amd64") and endswith(".gz")) | .browser_download_url' | head -n 1)
-          echo "Downloading from: $DOWNLOAD_URL"
           curl -L -o mihomo.gz "$DOWNLOAD_URL"
           gunzip -f mihomo.gz
-          find . -maxdepth 1 -type f -name "mihomo-linux-amd64*" -exec mv {} mihomo \;
-          chmod +x mihomo
+          # [span_3](start_span)确保文件名统一为 mihomo[span_3](end_span)
+          mv mihomo-linux-amd64* mihomo 2>/dev/null || mv mihomo.linux-amd64* mihomo 2>/dev/null || true
+          [span_4](start_span)chmod +x mihomo[span_4](end_span)
+
+      - name: Aggregate and Sort Lists
+        run: |
+          # [span_5](start_span)【修复关键】必须先创建 final_list.txt[span_5](end_span)
+          # 将两个文件夹下的所有文件内容合并，去重并排序
+          mkdir -p domain tracker
+          find domain/ tracker/ -type f -exec cat {} + | sort -u > final_list.txt
+          
+          # 打印前几行检查是否成功
+          echo "First 5 domains:"
+          head -n 5 final_list.txt
 
       - name: Convert to MRS
         run: |
-          # 核心修正：确保参数顺序正确，并指定输出路径
-          # 注意：behavior 必须是 domain (因为你的输入是域名列表)
-          ./mihomo convert ruleset domain final_list.txt adblock.mrs
-          
-          # 验证文件是否生成
-          if [ -f "adblock.mrs" ]; then
-            echo "Success: adblock.mrs created."
+          # [span_6](start_span)使用 mihomo 转换规则集[span_6](end_span)
+          # 注意：这里增加了输入输出检查
+          if [ -s "final_list.txt" ]; then
+            [span_7](start_span)./mihomo convert ruleset domain final_list.txt adblock.mrs[span_7](end_span)
           else
-            echo "Error: adblock.mrs not found."
-            exit 1
+            echo "Error: final_list.txt is empty or not found!"
+            [span_8](start_span)exit 1[span_8](end_span)
           fi
-
-
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: adblock-ruleset
-          path: adblock.mrs
+          
+          [span_9](start_span)if [ -f "adblock.mrs" ]; then[span_9](end_span)
+            [span_10](start_span)echo "Success: adblock.mrs created."[span_10](end_span)
+          else
+            [span_11](start_span)echo "Error: adblock.mrs not found."[span_11](end_span)
+            [span_12](start_span)exit 1[span_12](end_span)
+          fi
 
       - name: Deploy to Release Branch
         run: |
-          # 1. 创建一个临时文件夹，把生成的 mrs 拷进去
-          mkdir deploy
-          cp adblock.mrs deploy/
-          cd deploy
-
-          # 2. 初始化为一个全新的 git 仓库
-          git init
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-
-          # 3. 提交文件
-          git add adblock.mrs
-          git commit -m "Auto-build MRS: $(date)"
-
-          # 4. 强行推送到远程仓库的 release 分支
-          # 注意：这里的 GITHUB_TOKEN 是 Actions 自动提供的，不需要你额外设置
-          git push "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:release --force
+          [span_13](start_span)mkdir deploy[span_13](end_span)
+          [span_14](start_span)cp adblock.mrs deploy/[span_14](end_span)
+          [span_15](start_span)cd deploy[span_15](end_span)
+          [span_16](start_span)git init[span_16](end_span)
+          [span_17](start_span)git config --local user.email "action@github.com"[span_17](end_span)
+          [span_18](start_span)git config --local user.name "GitHub Action"[span_18](end_span)
+          [span_19](start_span)git add adblock.mrs[span_19](end_span)
+          [span_20](start_span)git commit -m "Auto-build MRS: $(date)"[span_20](end_span)
+          # [span_21](start_span)推送至 release 分支[span_21](end_span)
+          [span_22](start_span)git push "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:release --force[span_22](end_span)
