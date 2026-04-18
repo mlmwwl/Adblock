@@ -65,5 +65,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update adblock list: $(date)"
-            git push origin main
+            git push origin HEAD:releases
           fi
