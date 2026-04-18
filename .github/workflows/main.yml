@@ -10,58 +10,53 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # 授予写权限，确保 Action 能把生成的文件推回仓库
+    permissions:
+      contents: write
+      
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Download Mihomo
         run: |
-          # 获取下载链接并确保它是二进制
           DOWNLOAD_URL=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | jq -r '.assets[] | select(.name | contains("linux-amd64") and endswith(".gz")) | .browser_download_url' | head -n 1)
-          echo "Downloading from: $DOWNLOAD_URL"
           curl -L -o mihomo.gz "$DOWNLOAD_URL"
           gunzip -f mihomo.gz
-          find . -maxdepth 1 -type f -name "mihomo-linux-amd64*" -exec mv {} mihomo \;
+          mv mihomo-linux-amd64* mihomo 2>/dev/null || mv mihomo.linux-amd64* mihomo 2>/dev/null || true
           chmod +x mihomo
 
       - name: Aggregate and Sort Lists
         run: |
-          # [span_5](start_span)【修复关键】必须先创建 final_list.txt[span_5](end_span)
-          # 将两个文件夹下的所有文件内容合并，去重并排序
           mkdir -p domain tracker
+          # 合并所有文件并去重排序
           find domain/ tracker/ -type f -exec cat {} + | sort -u > final_list.txt
-          
-          # 打印前几行检查是否成功
-          echo "First 5 domains:"
-          head -n 5 final_list.txt
-  
+          echo "Total domains gathered: $(wc -l < final_list.txt)"
+
       - name: Convert to MRS
         run: |
-          # 执行转换，行为模式设为 domain
           if [ -s "final_list.txt" ]; then
             ./mihomo convert ruleset domain final_list.txt adblock.mrs
           else
-            echo "Error: final_list.txt is empty!"
-            exit 1
-          fi
-          
-          # 检查输出文件
-          if [ -f "adblock.mrs" ]; then
-            echo "Success: adblock.mrs created."
-          else
-            echo "Error: Conversion failed."
+            echo "Error: No domains found in domain/ or tracker/"
             exit 1
           fi
 
-      - name: Deploy to Release Branch
+      - name: Push to /mrs Directory
         run: |
-          mkdir -p deploy
-          cp adblock.mrs deploy/
-          cd deploy
-          git init
+          # 创建 mrs 目录（如果不存在）
+          mkdir -p mrs
+          mv adblock.mrs mrs/
+          
+          # 配置 Git 并推送到 main 分支
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add adblock.mrs
-          git commit -m "Auto-build MRS: $(date)"
-          # 使用 GITHUB_TOKEN 强制推送到 release 分支
-          git push "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:release --force
+          
+          git add mrs/adblock.mrs
+          # 检查是否有文件变化，避免没有变化时提交导致报错
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update adblock.mrs: $(date)"
+            git push origin main
+          fi
