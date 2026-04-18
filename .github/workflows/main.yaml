@@ -42,28 +42,28 @@ jobs:
 
       - name: Aggregate and Sort Lists
         run: |
-          mkdir -p list
-          find domain/ tracker/ -type f -exec cat {} + | sort -u > list/adblock.txt
-          echo "Total domains gathered: $(wc -l < list/adblock.txt)"
+          mkdir -p releases
+          find domain/ tracker/ -type f -exec cat {} + | sort -u > releases/adblock.txt
+          echo "Total domains gathered: $(wc -l < releases/adblock.txt)"
 
       - name: Convert to MRS
         run: |
-          if [ -s "list/adblock.txt" ]; then
-            ./mihomo convert-ruleset domain text list/adblock.txt list/adblock.mrs
+          if [ -s "releases/adblock.txt" ]; then
+            ./mihomo convert-ruleset domain text releases/adblock.txt releases/adblock.mrs
           else
             echo "Error: No domains found in domain/ or tracker/"
             exit 1
           fi
 
-      - name: Push to /list Directory
+      - name: Push to /releases Directory
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-          git add list/adblock.txt list/adblock.mrs
+          git add releases/adblock.txt releases/adblock.mrs
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update adblock list: $(date)"
-            git push origin HEAD:releases
+            git commit -m "Update adblock releases: $(date)"
+            git push origin master --force
           fi
