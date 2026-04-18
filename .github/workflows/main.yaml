@@ -10,37 +10,33 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    # 授予写权限，确保 Action 能把生成的文件推回仓库
     permissions:
       contents: write
-      
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-- name: Download Mihomo
-  run: |
-    DOWNLOAD_URL=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest \
-      | jq -r '.assets[] | select(.name | test("linux-amd64") and test("\\.gz$")) | .browser_download_url' \
-      | grep -v 'alpha\|compatible' | head -n 1)
-    
-    echo "Downloading: $DOWNLOAD_URL"
-    curl -L -o mihomo.gz "$DOWNLOAD_URL"
-    gunzip -f mihomo.gz
-    
-    # 找到解压后实际的文件名，统一重命名
-    EXTRACTED=$(find . -maxdepth 1 -type f -name 'mihomo*' ! -name '*.gz' | head -n 1)
-    echo "Extracted file: $EXTRACTED"
-    mv "$EXTRACTED" mihomo
-    chmod +x mihomo
-    
-    # 验证是否正确（convert 命令存在则说明版本正确）
-    ./mihomo -v
+      - name: Download Mihomo
+        run: |
+          DOWNLOAD_URL=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest \
+            | jq -r '.assets[] | select(.name | test("linux-amd64") and test("\\.gz$")) | .browser_download_url' \
+            | grep -v 'alpha\|compatible' | head -n 1)
+
+          echo "Downloading: $DOWNLOAD_URL"
+          curl -L -o mihomo.gz "$DOWNLOAD_URL"
+          gunzip -f mihomo.gz
+
+          EXTRACTED=$(find . -maxdepth 1 -type f -name 'mihomo*' ! -name '*.gz' | head -n 1)
+          echo "Extracted file: $EXTRACTED"
+          mv "$EXTRACTED" mihomo
+          chmod +x mihomo
+
+          ./mihomo -v
 
       - name: Aggregate and Sort Lists
         run: |
           mkdir -p domain tracker
-          # 合并所有文件并去重排序
           find domain/ tracker/ -type f -exec cat {} + | sort -u > final_list.txt
           echo "Total domains gathered: $(wc -l < final_list.txt)"
 
@@ -55,16 +51,13 @@ jobs:
 
       - name: Push to /mrs Directory
         run: |
-          # 创建 mrs 目录（如果不存在）
           mkdir -p mrs
           mv adblock.mrs mrs/
-          
-          # 配置 Git 并推送到 main 分支
+
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          
+
           git add mrs/adblock.mrs
-          # 检查是否有文件变化，避免没有变化时提交导致报错
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
