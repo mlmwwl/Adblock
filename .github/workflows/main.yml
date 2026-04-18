@@ -16,13 +16,13 @@ jobs:
 
       - name: Download Mihomo
         run: |
-          # [span_2](start_span)获取最新版下载链接[span_2](end_span)
+          # 获取下载链接并确保它是二进制
           DOWNLOAD_URL=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | jq -r '.assets[] | select(.name | contains("linux-amd64") and endswith(".gz")) | .browser_download_url' | head -n 1)
+          echo "Downloading from: $DOWNLOAD_URL"
           curl -L -o mihomo.gz "$DOWNLOAD_URL"
           gunzip -f mihomo.gz
-          # [span_3](start_span)确保文件名统一为 mihomo[span_3](end_span)
-          mv mihomo-linux-amd64* mihomo 2>/dev/null || mv mihomo.linux-amd64* mihomo 2>/dev/null || true
-          [span_4](start_span)chmod +x mihomo[span_4](end_span)
+          find . -maxdepth 1 -type f -name "mihomo-linux-amd64*" -exec mv {} mihomo \;
+          chmod +x mihomo
 
       - name: Aggregate and Sort Lists
         run: |
