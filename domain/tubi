@@ -12,3 +12,4 @@ rainmaker.production-public.tubi.io
 rainmaker4.production-public.tubi.io
 realtime-logger.production-public.tubi.io
 user-signals.production-public.tubi.io
+analytics-ingestion-production.tubitv.com

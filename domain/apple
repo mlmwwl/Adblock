@@ -91,3 +91,6 @@
 +.probe.icloud.com
 +.a1.mzstatic.com
 +.shazam-insights.cdn-apple.com
++.weather-analytics-events.news.apple-dns.net
++.notes-analytics-events.news.apple-dns.net
++.books-analytics-events.news.apple-dns.net
