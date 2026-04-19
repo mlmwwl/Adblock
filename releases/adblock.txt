@@ -95,6 +95,7 @@
 +.admarketing.yahoo.net
 +.admarketplace.net.akadns.net
 +.admarvel.s3.amazonaws.com
++.admd.ink
 +.admob.google.com
 +.admob.googleapis.com
 +.adnxs-simple.com
@@ -106,7 +107,11 @@
 +.adobetag.com.edgekey.net
 +.adobetarget.com.edgekey.net
 +.adpublisher.s3.amazonaws.com
++.adriver.ru
++.adrivo.com
++.adrivo.digital
 +.adrizer-ad-images.s3.amazonaws.com
++.adrizer.com+.stun.l.google.com
 +.ads-1202260457.us-east-1.elb.amazonaws.com
 +.ads-1821218336.ap-southeast-1.elb.amazonaws.com
 +.ads-2005279979.us-west-2.elb.amazonaws.com
@@ -460,6 +465,8 @@
 +.apse1-ssp-prod-syncweb-alb-1135453511.ap-southeast-1.elb.amazonaws.com
 +.apse2-ssp-prod-adserv-alb-82206463.ap-southeast-2.elb.amazonaws.com
 +.apu.samsungelectronics.com
++.aralego.com
++.aralego.net
 +.as-ms-pro-loadbala-sugvjp2xlhjz-1716713284.eu-west-1.elb.amazonaws.com
 +.assets-momentum.akamaized.net
 +.aston-mpr-web-push-notification.s3-us-west-2.amazonaws.com
@@ -519,7 +526,7 @@
 +.beacon.walmart.com.akadns.net
 +.beacons.digital.disneyadvertising.com.edgekey.net
 +.beacons.trafficmanager.net
-+.beacons.xboxlive.comzion.api.cnn.io
++.beacons.xboxlive.com
 +.beacons2-dual-1190961688.eu-west-1.elb.amazonaws.com
 +.beacons2-dual-326274080.us-east-1.elb.amazonaws.com
 +.beacons2-dual-365142722.us-west-2.elb.amazonaws.com
@@ -549,8 +556,10 @@
 +.bluejay.edgesoftware.cloud
 +.bluestack-error-pages.s3.amazonaws.com
 +.books-analytics-events.apple.com
++.books-analytics-events.news.apple-dns.netads-api.duolingo.com
 +.bpu.samsungelectronics.com
 +.branch.io
++.braze.com
 +.brc-visio-telemetry.officeapps.live.com
 +.broadstreet-common.s3.amazonaws.com
 +.browser-intake-us5-datadoghq.com
@@ -888,6 +897,8 @@
 +.experiment.icloud.com
 +.experiments.apple.com
 +.experiments.apple.com.edgekey.net
++.eyeota.com
++.eyeota.net
 +.f.convertkit.com.cdn.cloudflare.net
 +.f4c1547b-d668-498a-ad80-93d2a48d3812.rdbroker-g-us-r1.wvd.microsoft.com
 +.f4c1547b-d668-498a-ad80-93d2a48d3812.rdbroker.wvd.microsoft.com
@@ -960,6 +971,9 @@
 +.geller-pa.googleapis.com
 +.gemiad.s3.eu-central-1.amazonaws.com
 +.gemini.yahoo.com
++.genieessp.com
++.genieessp.jp
++.genieesspv.jp
 +.geo-atsv2.media.g03.yahoodns.net
 +.geo.adobe.com
 +.geo.query.yahoo.com
@@ -997,6 +1011,10 @@
 +.graffiti-tags.apple.com
 +.growth-pa.googleapis.com
 +.gscontxt.net
++.gsspat.jp
++.gsspcln.jp
++.gssprt.jp
++.gstatic.ru
 +.gtm-alb-tagging-production-1888971638.eu-central-1.elb.amazonaws.com
 +.gtrk.s3.amazonaws.com
 +.h4g3z1-native.apple.web.app
@@ -1056,6 +1074,7 @@
 +.ieonline.microsoft.com
 +.igtd-1462a305-ad10-4b7d-990a-123d5644eb1b.s3.eu-west-1.amazonaws.com
 +.igtd-1462a305-ad10-4b7d-990a-123d5644eb1b.s3.us-east-1.amazonaws.com
++.im-apps.net
 +.images.chbusiness.samsung.com
 +.images.frbusiness.samsung.com
 +.images.it.business.samsung.com
@@ -1353,6 +1372,7 @@
 +.noc-visio-telemetry.officeapps.live.com
 +.nol.yahoo.com
 +.notes-analytics-events.apple.com
++.notes-analytics-events.news.apple-dns.net
 +.nothing-phone-log-india.s3.ap-south-1.amazonaws.com
 +.notifications-ueeshp-pa.googleapis.com
 +.nouvelobs.s3-website-eu-west-1.amazonaws.com
@@ -1792,13 +1812,14 @@
 +.sgtus1-powerpoint-telemetry-vip.officeapps.live.com
 +.sgtus1-word-telemetry-vip.officeapps.live.com
 +.shared-prd-1752266577.us-west-2.elb.amazonaws.com
-+.shazam-insights.cdn-apple.comads-api.duolingo.com
++.shazam-insights.cdn-apple.com
 +.shealth-analytics-api.samsunghealth.com
 +.shealth-analytics-stg-api.samsunghealth.com
 +.sia.internet.apps.samsung.com
 +.signalszone.com
 +.simple-cdn.s3.amazonaws.com
 +.siteintercept.qualtrics.com.cdn.cloudflare.net
++.sitemaji.com
 +.sk-ads-vir-1507415444.eu-west-1.elb.amazonaws.com
 +.sk-ads-vva-lg-1902151604.us-east-1.elb.amazonaws.com
 +.sk-ads-vva-upx-702753993.us-east-1.elb.amazonaws.com
@@ -1880,7 +1901,7 @@
 +.statshunt.com
 +.statsie.com
 +.statsigapi.net
-+.statsit.com+.stun.l.google.com
++.statsit.com
 +.stg-apigw.samsungdmroute.com
 +.stickyadstv.com
 +.stocks-analytics-events.apple.com
@@ -2405,6 +2426,7 @@
 +.wc.yahoodns.net
 +.wdc-analytics-prd-246317209.eu-west-1.elb.amazonaws.com
 +.weather-analytics-events.apple.com
++.weather-analytics-events.news.apple-dns.net
 +.web-ivcbrasil-pixel.s3.us-west-2.amazonaws.com
 +.web-ivcbrasil-tag.s3.us-west-2.amazonaws.com
 +.web3projects.substack.com
@@ -2493,11 +2515,17 @@ abproxy.production-public.tubi.io
 abt.s3.yandex.net
 activity.api.bbc.co.uk
 activity.api.bbc.com
+ad-nlb-ext6.nonprod.klarna.net
 ad.app.us-east-1.prod.cloud.netflix.net
 ad.eu-west-1.prod.cloud.netflix.net
+ad.klarna.net
 ad.vip.us-west-2.test.cloud.netflix.net
+adfinix-ads.sgp1.cdn.digitaloceanspaces.com
 adfox.yandex.ru
 adfstat.yandex.ru
+adimages.fra1.cdn.digitaloceanspaces.com
+ads-adfinix-staging.sgp1.cdn.digitaloceanspaces.com
+ads-adfinix-staging.sgp1.digitaloceanspaces.com
 ads-analytics.stellar.cnn.com
 ads-api.reddit.com
 ads-dev.pinterest.com
@@ -2512,10 +2540,12 @@ ads.nyt.com+.0x00000000000.substack.com
 ads.nytimes.com
 ads.production-public.tubi.io
 ads.reddit.com
+ads.sfo2.cdn.digitaloceanspaces.com
 ads.test.netflix.com
 ads.yandex.com
 ads4.production-public.tubi.io
 adsdk.yandex.ru
+adshunter.fra1.digitaloceanspaces.com
 adtech.nflximg.net
 advertising.netflix.com
 advertising.nytimes.com
@@ -2537,6 +2567,7 @@ analytics-api.cloudinary.com
 analytics-api.webflow.com
 analytics-gateway-prod.fallguys.oncatapult.com
 analytics-gateway.fallguys.oncatapult.com
+analytics-ingestion-production.tubitv.com+.data-lake-api.internet.apps.samsung.com
 analytics-ingestion-v3.main-production-custom.production.k8s.tubi.io
 analytics-ingestion.production-public.tubi.io
 analytics.apnewsregistry.com
@@ -2629,14 +2660,19 @@ easy-monetization.s3.yandex.net
 eg.nytimes.com
 elections.ap.orgimproving.duckduckgo.com
 engineering.siftscience.com+.rum.af-south-1.amazonaws.com
+entertainment-live.sgp1.digitaloceanspaces.com+.3j0pw4ed7uac-a.akamaihd.net
 error-tracking.reddit.com
+eshops-uet-tags.ams3.cdn.digitaloceanspaces.com
 et.nytimes.com
+etc-cdn-staging.ams3.digitaloceanspaces.com
 eth-login.webflow.io
 events.brightline.tv
 events.launchdarkly.com
 events.launchdarkly.us
+events.production.us1.pgw-pci.klarna.net
 events.reddit.com
 events.redditmedia.com
+evt.klarna.app
 excess.duolingo.com
 external-api.pixel.plus.yandex.net
 extmaps-api.yandex.net
@@ -2656,6 +2692,7 @@ gsap-crash-course.webflow.io
 gtm.akadns99.net
 gtm.cloudinary.com
 gumeminlogi.webflow.io
+hbid.ams3.cdn.digitaloceanspaces.com
 healthguides.cnn.com
 helen-template.webflow.io
 hmnshudhmn24.medium.com
@@ -2673,6 +2710,7 @@ itrustcapitaalloginn.webflow.io
 ix.cnn.io
 js.agkn.com
 jssdkcdn.mparticle.com
+jstag1.sgp1.cdn.digitaloceanspaces.com
 juggler.services.disqus.com
 kmspico-official.medium.com
 lbs.yandex.ru
@@ -2681,6 +2719,7 @@ lightstep.medium.systems
 lilys-0x800705b4-error-project.webflow.io
 lingnan.asia.qualtrics.com
 links.services.disqus.com
+lm-publicities.nyc3.digitaloceanspaces.com
 log--in-auth-uphold.webflow.io
 log.api-maps.yandex.ru
 log.disk.yandex.net
@@ -2704,6 +2743,7 @@ media-adv.market.yandex.ru
 media-adv.vs.market.yandex.net
 media-adv.yandex.com
 meetyoursoulmatenow.webflow.io
+metadata-static-files.sfo2.cdn.digitaloceanspaces.com
 meter-svc.nytimes.com
 metric-ce9a99.webflow.io
 metric-quest.webflow.io
@@ -2743,6 +2783,7 @@ mobile.launchdarkly.com
 monitor.r53.cbsivideo.com
 monitoring.ede565d7c6c3ee6b.xhst.bbci.co.ukark.tubi.video
 mps.nbcuni.com
+mw-ad-platform.nyc3.cdn.digitaloceanspaces.com
 mybbc-analytics.files.bbci.co.uk
 mybbc-analytics.stage.files.bbci.co.uk
 mybbc.files.bbci.co.uk
@@ -2761,6 +2802,7 @@ osimg.nbcuni.com
 p1cluster.cxense.com
 pbc.wsj.com
 pblog.wsj.com
+perf.hsforms.com
 perfmetrics.netflix.com
 pix.nbcuni.com
 pixel-config.reddit.com
@@ -2794,6 +2836,8 @@ secure---sso---robinhood---com-cdn.webflow.io
 service.cmp.oath.com
 services.brightline.tv+.bf-ad.net.26664.edgekey.net
 sgtm.qualtrics.com
+share-na3.hsforms.com
+showbet-static.ams3.digitaloceanspaces.com
 site.yandex.net
 siteintercept.qualtrics.com
 slc.cbssports.com+.analytics.gitlab.com
@@ -2819,7 +2863,7 @@ stat.yandex.net
 stat.yandex.ru
 statchecker.yandex.ru
 static-mon.yandex.net
-static.agkn.com+.3j0pw4ed7uac-a.akamaihd.net
+static.agkn.com
 static.mparticle.com
 static.prod.martech.cbssports.cloud
 stats-collector.cxense.com+.crashlytics.com
@@ -2829,6 +2873,8 @@ success-messages-and-error-messages.webflow.io
 support-portal.qualtrics.com
 survey-analytics-slider.webflow.io
 survey-analytics.webflow.io
+survey-eu1.hsforms.com
+tag29.ams3.digitaloceanspaces.com
 tags.wsj.com+.ads.microsoft.com
 tealium.cbsnews.com
 telemetry.api.bbci.co.uk
@@ -2837,6 +2883,7 @@ tempest.services.disqus.com
 test-website-metric-template.webflow.io
 time-limited-secure-content.webflow.io
 tm-gta5-prod.ros.rockstargames.comad2001.medium.com
+tmfp.klarna.com
 tms.fmm.io
 topview-analytics-llc.webflow.io
 tracker.metricool.com
@@ -2853,7 +2900,7 @@ umto.cnn.com
 up.nytimes.com
 upload-widget.cloudinary.com
 uploader10klg.disk.yandex.net
-user-signals.production-public.tubi.io+.data-lake-api.internet.apps.samsung.com
+user-signals.production-public.tubi.io
 victory.cnn.com+.api.optimizely.com
 video-analytics-api.cloudinary.com
 w3-reporting-csp.reddit.com
@@ -2864,8 +2911,11 @@ web-metrica.yandex.ru
 web3-connect-wallet.webflow.io
 webflow-animation-crash-no-animations.webflow.io
 webflow-interactions-crash-course.webflow.io
+weborama.ams3.cdn.digitaloceanspaces.com
 widget.cloudinary.com
 wix.livechatinc.com 
+woohoo.sfo2.digitaloceanspaces.com
+woolyfeed-tags.nyc3.cdn.digitaloceanspaces.com
 worldmtcs.nhk.jpad.reddit.com
 www.i.cdn.cnn.com
 your-umami.webflow.iocdn-media.brightline.tv
@@ -2873,4 +2923,5 @@ z.cdp-dev.cnn.com
 zen-test.yandex.ruads.pinterest.com
 zion-telemetry-nonprod.api.cnn.io
 zion-telemetry.api.cnn.io
+zion.api.cnn.io
 zombie.duolingo.comgalaxy-client-reports.gog.com
