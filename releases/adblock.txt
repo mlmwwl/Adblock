@@ -1569,7 +1569,7 @@
 +.metrics.adobeprimetime.com
 +.metrics.apple.com
 +.metrics.atlascopco.com.cdn.cloudflare.net
-+.metrics.cloudflarebolt.comdd.reuters.com+.aomicwallet.github.io
++.metrics.cloudflarebolt.comdd.reuters.comanalytics.wikimedia.org
 +.metrics.cvshealth.com.edgekey.net
 +.metrics.edgepark.com
 +.metrics.gitlab.com
@@ -3103,6 +3103,8 @@ ichnaea.netflix.com
 ichnaea.us-east-1.internal.dradis.netflix.com
 ichnaea.us-east-2.internal.dradis.netflix.com
 id.cxense.com
+intake-analytics.wikimedia.org
+intake-logging.wikimedia.org
 itrustcapitaalloginn.webflow.io
 ix.cnn.io
 js.agkn.com
@@ -3130,12 +3132,22 @@ logs.us-east-1.internal.dradis.netflix.com
 logs.us-east-2.internal.dradis.netflix.com
 logs.us-west-2.internal.dradis.netflix.com
 market-click-baobab.yandex.ru
+matomo.wikimedia.fr
+matomo.wikimedia.it
+matomo.wikimedia.se
 mc.yandex.by
 mc.yandex.com
 mc.yandex.kz
 mc.yandex.md
 mc.yandex.ru
 mc.yandex.uz
+measure-codfw.wikimedia.org
+measure-drmrs.wikimedia.org
+measure-eqiad.wikimedia.org
+measure-eqsin.wikimedia.org
+measure-esams.wikimedia.org
+measure-magru.wikimedia.org
+measure-ulsfo.wikimedia.org
 media-adv.market.yandex.ru
 media-adv.vs.market.yandex.net
 media-adv.yandex.com
@@ -3201,6 +3213,7 @@ pbc.wsj.com
 pblog.wsj.com
 perf.hsforms.com
 perfmetrics.netflix.com
+piwik.wikimedia.org
 pix.nbcuni.com
 pixel-config.reddit.com
 pixel.clickslogistics.com
@@ -3266,6 +3279,7 @@ static.prod.martech.cbssports.cloud
 stats-collector.cxense.com+.crashlytics.com
 stats.bbc.co.uk
 stats.nhk.jp
+stats.wikimedia.de+.aomicwallet.github.io
 success-messages-and-error-messages.webflow.io
 support-portal.qualtrics.com
 survey-analytics-slider.webflow.io
