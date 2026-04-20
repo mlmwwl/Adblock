@@ -1,4 +1,3 @@
-+.*ad.durasite.net
 +.3p-geo.yahoo.com
 +.3p-udc.yahoo.com
 +.442adbee-1c04-4abb-ad33-b49237aa4d5c.rdbroker-g-eu-r1.wvd.microsoft.com
@@ -103,6 +102,7 @@
 +.ad.ddo.jp
 +.ad.douga-kan.com
 +.ad.duga.jp
++.ad.durasite.net
 +.ad.eloan.co.jp
 +.ad.eloan.co.jp.edgekey.net
 +.ad.firestorage.jp
@@ -654,7 +654,6 @@
 +.banner.samsungmembers.com
 +.bannersweb.s3.amazonaws.com
 +.banno-sentry-production.s3.amazonaws.com
-+.bar*.shinobi.jp
 +.basejumper.apple.com
 +.bats.video.yahoo.com
 +.beacon-all.walmart.com.akadns.net
@@ -2023,7 +2022,6 @@
 +.ratel-ad.com
 +.rawtelemetry-east.servicebus.windows.net
 +.rawtelemetry-west.servicebus.windows.net
-+.rcm-jp.amazon.co.jp/e/cm?$third-party
 +.rd.rakuten.co.jp
 +.rd.yahoo.com
 +.rdsig.yahoo.co.jp
