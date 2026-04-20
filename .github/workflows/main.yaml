@@ -52,7 +52,7 @@ jobs:
           if [ -s "releases/adblock.txt" ]; then
             ./mihomo convert-ruleset domain text releases/adblock.txt releases/adblock.mrs
           else
-            echo "Error: No domains found in domain/ or tracker/"
+            echo "Error: No domains found in domain/ or blocklist/ or tracker/"
             exit 1
           fi
 
