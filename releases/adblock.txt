@@ -3172,6 +3172,11 @@
 +.webinsight.s3.amazonaws.com
 +.webo-prod-was-gtm-event-handler.s3.us-east-1.amazonaws.com
 +.webpublic.substack.com
++.webvisor.com
++.webvisor.org
++.webvisor.ru
++.webwap.org+.stun.l.google.com
++.webwave.dev
 +.welte.jp
 +.weus2watcab01.blob.core.windows.net
 +.weus2watcab02.blob.core.windows.net
@@ -3242,7 +3247,7 @@
 +.yadore.com
 +.yadro.ru
 +.yads.c.yimg.jp
-+.yads.tech+.stun.l.google.com
++.yads.tech
 +.yads.yahoo.co.jp
 +.yads.yahoo.co.jp
 +.yads.yjtag.yahoo.co.jp
