@@ -338,10 +338,9 @@
 +.image-rentracks.com
 +.link-trade.net
 +.microad.jp
-+.rcm-jp.amazon.co.jp/e/cm?$third-party
 +.recommender.jp
 +.rentracks.jp
-+.*ad.durasite.net
++.ad.durasite.net
 +.scadnet.com
 +.search.jword.jp
 +.seoparts.com
@@ -363,7 +362,6 @@
 +.static.affiliate.rakuten.co.jp
 +.xml.affiliate.rakuten.co.jp
 +.aimg.fc2.com
-+.bar*.shinobi.jp
 +.hb.afl.rakuten.co.jp
 +.hbb.afl.rakuten.co.jp
 +.media5.fc2.com
