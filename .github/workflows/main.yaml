@@ -5,6 +5,7 @@ on:
     paths:
       - 'domain/**'
       - 'tracker/**'
+      - 'blocklist/**'
   workflow_dispatch:
 
 jobs:
