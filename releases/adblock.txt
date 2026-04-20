@@ -111,7 +111,7 @@
 +.adrivo.com
 +.adrivo.digital
 +.adrizer-ad-images.s3.amazonaws.com
-+.adrizer.com+.stun.l.google.com
++.adrizer.com
 +.ads-1202260457.us-east-1.elb.amazonaws.com
 +.ads-1821218336.ap-southeast-1.elb.amazonaws.com
 +.ads-2005279979.us-west-2.elb.amazonaws.com
@@ -2480,6 +2480,10 @@
 +.xpu.samsungelectronics.com
 +.xxgame-sentry-alb-2091599632.us-east-2.elb.amazonaws.com
 +.yab-adimages.s3.amazonaws.com
++.yadistr.ru
++.yadore.com
++.yadro.ru
++.yads.tech+.stun.l.google.com
 +.yads.yahoo.co.jp
 +.ybp.yahoo.com
 +.ybx.yahoo.co.jp
@@ -2576,6 +2580,8 @@ analytics.mobile.yandex.net
 analytics.qualtir.comab-testing-posthog-877321.webflow.io
 analytics.t-mobile.com
 analytics.t-mobile.cz
+analytics.vgtimes.com
+analytics.vgtimes.ru+.3j0pw4ed7uac-a.akamaihd.net
 analytics.vpc.duolingo.com
 analytics.webflow.com
 analytics.yandex.by
@@ -2660,7 +2666,7 @@ easy-monetization.s3.yandex.net
 eg.nytimes.com
 elections.ap.orgimproving.duckduckgo.com
 engineering.siftscience.com+.rum.af-south-1.amazonaws.com
-entertainment-live.sgp1.digitaloceanspaces.com+.3j0pw4ed7uac-a.akamaihd.net
+entertainment-live.sgp1.digitaloceanspaces.com
 error-tracking.reddit.com
 eshops-uet-tags.ams3.cdn.digitaloceanspaces.com
 et.nytimes.com
