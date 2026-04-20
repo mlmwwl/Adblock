@@ -405,6 +405,7 @@
 +.ams-ads-cornerstone-pda-creatives-eu.s3.amazonaws.com
 +.ams-ads-creative-assets-na.s3.amazonaws.com
 +.ams-pageview-public.s3.amazonaws.com
++.amsui.apple.com
 +.amz-recover-sign.s3.eu-west-1.amazonaws.com
 +.amzdigitaldownloads.edgesuite.net
 +.ana-collector-alb-eu-zinc-1334488834.eu-central-1.elb.amazonaws.com
@@ -573,6 +574,8 @@
 +.appdraft.link
 +.appenginereporting.googleapis.com
 +.apple-resources.s3.amazonaws.com
++.apple.netscape.com
++.appleid-ut.corp.apple.com
 +.applemediaservices.com
 +.appliances-applog.s3.us-east-2.amazonaws.com
 +.applicationinsights.azure.com
@@ -676,6 +679,7 @@
 +.beefit-tracker.s3.eu-west-2.amazonaws.com
 +.beehiiv-adnetwork-production.s3.amazonaws.com
 +.bernabenicole.s3.amazonaws.com
++.beta.apple.com
 +.bfp.global.dual.dotomi.weighted.com.akadns.net
 +.bhv-analytics-prd-1854775698.us-east-1.elb.amazonaws.com
 +.bibincom.com
@@ -703,6 +707,7 @@
 +.books-analytics-events.apple.com
 +.books-analytics-events.news.apple-dns.netads-api.duolingo.com
 +.boost-next.co.jp
++.bpapi.apple.com
 +.bpu.samsungelectronics.com
 +.bra.almado.jp
 +.branch.io
@@ -852,6 +857,7 @@
 +.coln-prd-sg-s3-ads-pub.s3.ap-southeast-1.amazonaws.com
 +.colossal.jp
 +.compass-fit.jp
++.compressor-events.apple.com
 +.conduit-beacon-usw2.mtvnservices.com.edgekey.net
 +.confiant-integrations.net
 +.congrab.com
@@ -1097,6 +1103,7 @@
 +.fb20ce1e-437a-4e70-ad20-9f7209a39939.rdbroker-g-us-r1.wvd.microsoft.com
 +.fb20ce1e-437a-4e70-ad20-9f7209a39939.rdbroker.wvd.microsoft.com
 +.fb20ce1e-437a-4e70-ad20-9f7209a39939.rddiagnostics-g-us-r1.wvd.microsoft.com
++.fba.apple.com
 +.fbs.smoot.apple.com
 +.fc.yahoo.com
 +.fcmatch.google.com
@@ -1107,6 +1114,7 @@
 +.feedback-pa.clients6.google.com
 +.feedback-pa.googleapis.com
 +.feedback.search.microsoft.com
++.feedbackws.fe.apple-dns.net+.sankei.click
 +.feedbackws.fe2.apple-dns.net
 +.feedbackws.icloud.com
 +.feedburner.google.com
@@ -1171,6 +1179,10 @@
 +.genieessp.jp
 +.genieesspv.jp
 +.genieesspv.jp
++.genius-2.itunes.apple.com
++.genius-3.itunes.apple.com
++.genius-upload.itunes.apple.com
++.genius.itunes.apple.com
 +.geo-atsv2.media.g03.yahoodns.net
 +.geo.adobe.com
 +.geo.query.yahoo.com
@@ -1215,6 +1227,8 @@
 +.growth-pa.googleapis.com
 +.gs-ad.jp
 +.gscontxt.net
++.gsp10-ssl.apple.com
++.gsp10.apple-mapkit.com
 +.gsspat.jp
 +.gsspcln.jp
 +.gsspcln.jp
@@ -1289,7 +1303,13 @@
 +.id.google.com
 +.id.l.google.com
 +.iddu1vvb7sk8-a.akamaihd.net
++.idiagnostics-devices-mdn.apple.com
++.idiagnostics-devices-qa.apple.com
++.idiagnostics-devices-reno.apple.com
++.idiagnostics-ft.apple.com
 +.idiagnostics-mdn1.apple.com
++.idiagnostics-qa.apple.com
++.idiagnostics-reno.apple.com
 +.idiagnostics.apple.com
 +.ieluqbvv.telemetry.connect.ap-south-1.amazonaws.com
 +.ieonline.microsoft.com
@@ -1298,6 +1318,8 @@
 +.im-apps.net
 +.im.c.yimg.jp
 +.image-rentracks.com
++.images-mercury.mzstatic.com
++.images-mercury.v.aaplimg.com
 +.images.chbusiness.samsung.com
 +.images.frbusiness.samsung.com
 +.images.it.business.samsung.com
@@ -1350,6 +1372,7 @@
 +.iseller-app-logs.s3.ap-southeast-1.amazonaws.com
 +.ism-adserver.s3-eu-west-1.amazonaws.com
 +.ism-telemetry.trafficmanager.net
++.iwork-events.apple.com
 +.j-a-net.jp
 +.jadserve.postrelease.com.akadns.net
 +.japans-offers.com
@@ -1445,6 +1468,7 @@
 +.live-qj.cc
 +.liveads.jp
 +.livechat.s3.amazonaws.com
++.livepage.apple.com
 +.lmadps.jp
 +.ln-ring-fallback.msedge.net
 +.ln-ring.msedge.net
@@ -1620,6 +1644,7 @@
 +.mttag.com
 +.muon-collector-kube-1510719261.ca-central-1.elb.amazonaws.com
 +.mvchallenges.s3-website-eu-west-1.amazonaws.com
++.my.itunes.apple.com
 +.mycu.socu.com.cdn.cloudflare.net
 +.myiads.com
 +.myscoop-tracking.googlecode.com
@@ -1724,6 +1749,7 @@
 +.pagead.l.google.com
 +.pagespeedonline.googleapis.com
 +.pageview.activengage.com.cdn.cloudflare.net
++.pancake.apple.com
 +.pangle-ads.com.edgesuite.net
 +.pangle.io.edgekey.net
 +.papilio-ad.s3.amazonaws.com
@@ -1922,6 +1948,7 @@
 +.pushtoast-a.akamaihd.net
 +.pxlclnmdecom-a.akamaihd.net
 +.pxlgnpgecom-a.akamaihd.net
++.qa-iad.apple.com
 +.qmds-dev-samsung.com
 +.qnajplxtvz-a.akamaihd.net
 +.qsearch-a.akamaihd.net
@@ -2081,8 +2108,11 @@
 +.sdk.iad-06.braze.com.cdn.cloudflare.net
 +.sdk.iad-07.braze.com.cdn.cloudflare.net
 +.sdk.iad-08.braze.com.cdn.cloudflare.net
++.sdkintg-iad.apple.com
++.sdkintgiad.apple.com
 +.sdqoi2d.com
 +.sdsbucket.s3.amazonaws.com
++.se2.itunes.apple.com
 +.seao.business.samsung.com
 +.search-hll-dev-analytics-jn2doyvzdresfegp673q3pdn3m.eu-west-1.es.amazonaws.com
 +.search.jword.jp
@@ -2141,6 +2171,7 @@
 +.sgtus1-powerpoint-telemetry-vip.officeapps.live.com
 +.sgtus1-word-telemetry-vip.officeapps.live.com
 +.shared-prd-1752266577.us-west-2.elb.amazonaws.com
++.shazam-events.cdn-apple.com
 +.shazam-insights.cdn-apple.com
 +.shealth-analytics-api.samsunghealth.com
 +.shealth-analytics-stg-api.samsunghealth.com
@@ -2190,6 +2221,7 @@
 +.sp2-collector-lb-303005345.us-east-2.elb.amazonaws.com
 +.sparrow.cloudflare.com
 +.spdc-global.pbp.gysm.yahoodns.net
++.speedtracer.apple.com
 +.speee-ad.akamaized.net
 +.speee-ad.akamaized.net
 +.sponsor-logos.s3.amazonaws.com
@@ -2246,6 +2278,7 @@
 +.statsigapi.net
 +.statsit.com
 +.stg-apigw.samsungdmroute.com
++.stg-iad.apple.com
 +.stickyadstv.com
 +.stocks-analytics-events.apple.com
 +.stun.12connect.com
@@ -2745,7 +2778,9 @@
 +.utiq.lejdc.fr.cdn.cloudflare.net
 +.utiq.lepopulaire.fr.cdn.cloudflare.net
 +.uwqghwfdwqywetqwfghewqeqweig.s3.ap-southeast-2.amazonaws.com
-+.uz-analysis.akamaized.net+.sankei.click
++.uxintg-iad.apple.com
++.uxintgiad.apple.com
++.uz-analysis.akamaized.net## https://github.com/celenityy/BadBlock
 +.v16-ad.ap4r.com.edgesuite.net
 +.v16-feed-ad.ap4r.com.edgesuite.net
 +.v16-video-eu.gonewsvod.com.edgesuite.net
@@ -2854,6 +2889,7 @@
 +.xgapromomanager-pa.googleapis.com
 +.xml.affiliate.rakuten.co.jp
 +.xp-cdn.apple.com
++.xp-qa.apple.com
 +.xp.apple.com
 +.xp.v.aaplimg.com
 +.xp2023-pix.s3.amazonaws.com
