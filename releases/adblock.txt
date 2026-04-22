@@ -216,6 +216,7 @@
 +.ads-display.yahooapis.jp
 +.ads-feedback.yahoo.co.jp
 +.ads-gb-s8-prd-ak.cdn01.skycdp.com.edgesuite.net
++.ads-img.mozilla.org
 +.ads-lite.net
 +.ads-lite2.net
 +.ads-live-lbs-1947742752.us-west-1.elb.amazonaws.com
@@ -249,12 +250,14 @@
 +.ads.mojiva.com.edgesuite.net
 +.ads.museum.or.jp
 +.ads.nicovideo.jp
++.ads.nonprod.webservices.mozgcp.net
 +.ads.nwsource.com.edgesuite.net
 +.ads.phonepe.com.cdn.cloudflare.net
 +.ads.pinger.com.cdn.cloudflare.net
 +.ads.pipaffiliates.com
 +.ads.pro-market.net.akamaized.net
 +.ads.pro-market.net.edgesuite.net
++.ads.prod.webservices.mozgcp.net
 +.ads.randomexp.net.cdn.cloudflare.net
 +.ads.reddit.com
 +.ads.rmbl.ws.cdn.cloudflare.netstatsig.anthropic.comapi.cxense.com
@@ -522,6 +525,7 @@
 +.analytics.metrobyt-mobile.com.edgekey.net
 +.analytics.mobile-cdn.walmart.com.akadns.net
 +.analytics.mobile.yandex.net
++.analytics.mozillion.com
 +.analytics.mpay.samsung.com
 +.analytics.nike.com.edgekey.net
 +.analytics.notify.elsevier.com.cdn.cloudflare.net
@@ -773,6 +777,7 @@
 +.brc-visio-telemetry.officeapps.live.com
 +.brd-sdk-app-packages.s3.amazonaws.com
 +.broadstreet-common.s3.amazonaws.com
++.broker-live.mozillamessaging.com
 +.browser-intake-us5-datadoghq.com
 +.browser-updater.yandex.net
 +.bryan-ad-testing.s3.amazonaws.com
@@ -948,6 +953,7 @@
 +.content-partnersbadge-pa.googleapis.com
 +.content.yieldmanager.edgesuite.net+.edge.adobedc.net
 +.contextualads.yahoo.net
++.contile.services.mozilla.com
 +.contributor.google.com
 +.conversions-config.reddit.com
 +.convertexperiments.com.edgekey.net
@@ -963,7 +969,13 @@
 +.cpro.baidu.com
 +.cpu.samsungelectronics.com
 +.cr.adobe.com
++.crash-pings.mozilla.org
++.crash-reports-xpsp2.mozilla.com
 +.crash-reports.browser.yandex.net
++.crash-reports.mozilla.com
++.crash-stacks.mozilla.com
++.crash-stats.mozilla.com
++.crash-stats.mozilla.org
 +.crash.corp.google.com
 +.crashes.infra.owhealth.com.cdn.cloudflare.net
 +.crashlytics.ru
@@ -1011,10 +1023,13 @@
 +.data.adobedc.net
 +.data.digital.adobe.com
 +.data.e.adobe.com
++.data.mozilla.com
 +.data.redditsave.comb.siftscience.com
 +.databeacon.apple.com
 +.datacollection.apple.com
++.dataops.mozgcp.net
 +.datasaver.googleapis.com
++.dataservices.mozgcp.net
 +.dbsa-digital-analytics.dbs.com.cdn.cloudflare.net
 +.dc-genai-access-provisioning-api.adobe.io
 +.dc.applicationinsights.azure.us
@@ -1083,6 +1098,8 @@
 +.doubleverify.com
 +.doubleverify.com.cdn.cloudflare.net
 +.dowjones.io
++.download-stats.mozilla.org
++.download-stats.r53-2.services.mozilla.com
 +.download.jword.jp
 +.dp-uploader-vehicle-telemetry-prod-us-west-2.s3.amazonaws.com
 +.dpg-ads-banners-prod-5cbbeba4.s3-eu-west-1.amazonaws.com
@@ -1195,6 +1212,7 @@
 +.exp-metrics.optimizely.com
 +.expdirclk.com
 +.experiment.icloud.com
++.experimenter.prod.webservices.mozgcp.net
 +.experiments.apple.com
 +.experiments.apple.com.edgekey.net
 +.external-api.pixel.plus.yandex.net
@@ -1612,6 +1630,7 @@
 +.live-lr.cc
 +.live-matomo-1805527886.eu-west-2.elb.amazonaws.com
 +.live-qj.cc
++.live.mozillamessaging.com
 +.liveads.jp
 +.livechat.s3.amazonaws.com
 +.livepage.apple.com
@@ -1631,6 +1650,7 @@
 +.location-microsoft-com.b-0005.b-msedge.net
 +.location-services-measurements.s3-external-1.amazonaws.com
 +.location.microsoft.com
++.location.services.mozilla.com
 +.locationhistory-pa.googleapis.com
 +.locationhistoryaggregates-pa.googleapis.com
 +.locationhistoryplacedetails-pa.googleapis.com
@@ -1701,6 +1721,7 @@
 +.maio.jp
 +.makeup-analytics-1075118270.eu-central-1.elb.amazonaws.com
 +.managedweb.net
++.marker.io+.stun.l.google.com
 +.market-click-baobab.yandex.ru
 +.marketing.services.apple
 +.marketingassets.staples.com.edgekey.net
@@ -1780,6 +1801,7 @@
 +.mellowtel-bucket.s3.us-east-1.amazonaws.com
 +.mercury.akamaized.net
 +.merequartz.com
++.merino.services.mozilla.com
 +.meshtelemetry.googleapis.com
 +.metric-collector.hepsipay.com.cedexis-5.hepsiburada.com.akadns.net
 +.metric-public-service-prod.ol.epicgames.com
@@ -1840,6 +1862,7 @@
 +.moro-douga.link
 +.mosaicone-lb-telemetry-prod-56a065490ca45ae3.elb.us-east-1.amazonaws.com
 +.moshimo.com
++.mozillaupdates.com
 +.mplab-metrics.s3-website-us-west-2.amazonaws.com
 +.msads.net
 +.msadsscale.azureedge.net
@@ -1892,6 +1915,9 @@
 +.noam.events.data.microsoft.com
 +.noc-visio-telemetry.officeapps.live.com
 +.nol.yahoo.com
++.normandy-cdn.services.mozilla.com
++.normandy.cdn.mozilla.net
++.normandy.services.mozilla.com
 +.notes-analytics-events.apple.com
 +.notes-analytics-events.news.apple-dns.net
 +.nothing-phone-log-india.s3.ap-south-1.amazonaws.com
@@ -2100,6 +2126,8 @@
 +.pompass.net
 +.posthog-proxy-service-prod-eu-bfb365ef029ea8b9.elb.eu-central-1.amazonaws.com
 +.posthog-proxy-service-prod-us-786081f7c4028325.elb.us-east-1.amazonaws.com
++.posthog.com
++.postie.com
 +.powerpoint-telemetry.officeapps.live.com
 +.powerpoint-telemetry.wac.trafficmanager.net
 +.ppc-excel-telemetry.officeapps.live.com
@@ -2476,6 +2504,7 @@
 +.sni-ad-traffic.s3.amazonaws.com
 +.sni-ads-creativeservices.s3.amazonaws.com
 +.sni-ads-creativeservices.s3.us-east-1.amazonaws.com
++.snippets.cdn.mozilla.net
 +.snowplow-collector-alb-155479096.us-east-1.elb.amazonaws.com
 +.snowplow-collector-lb-1821647824.us-east-1.elb.amazonaws.com
 +.snowplow-collector-lb-249869823.us-east-2.elb.amazonaws.com
@@ -2484,6 +2513,10 @@
 +.snowplowprd.trx.gitlab.net+.ads-twitter.com
 +.snowplowprdnlb-1490493263.us-east-2.elb.amazonaws.com
 +.socdm.com
++.socorro-collector.services.mozilla.com
++.socorro-webapp.services.mozilla.com
++.socorro.nonprod.webservices.mozgcp.net
++.socorro.prod.webservices.mozgcp.net+.360.yahoo.com
 +.sokmil-ad.com
 +.sombrero.yahoo.net
 +.sonobi.com
@@ -2500,6 +2533,7 @@
 +.speedtracer.apple.com
 +.speee-ad.akamaized.net
 +.speee-ad.akamaized.net
++.spocs.mozilla.net
 +.sponsor-logos.s3.amazonaws.com
 +.spot-pa.googleapis.com
 +.spreadlink.net
@@ -2870,6 +2904,9 @@
 +.taggyad.jp
 +.tagmanager.google.com
 +.tagmanager.googleapis.com
++.talkback-public.mozilla.org
++.talkback-reports.mozilla.org
++.talkback.mozilla.org
 +.tapi.optimizely.com
 +.tapjoy-com-lb-vpc-332546193.us-east-1.elb.amazonaws.com
 +.tar.microsoft.com
@@ -2900,12 +2937,16 @@
 +.telemetry-aus5.adobe.io
 +.telemetry-ca.docusign.net.akadns.net
 +.telemetry-config.playstation.com.edgesuite.net
++.telemetry-coverage.mozilla.org
++.telemetry-coverage.r53-2.services.mozilla.com
 +.telemetry-d.docusign.net.akadns.net
++.telemetry-data.r53-2.services.mozilla.com
 +.telemetry-dev-va7.adobe.io
 +.telemetry-dev.adobe.io
 +.telemetry-eu.docusign.net.akadns.net
 +.telemetry-ext.observability.commbank.com.au.cdn.cloudflare.net
 +.telemetry-geo.docusign.net.akadns.net
++.telemetry-incoming.r53-2.services.mozilla.com
 +.telemetry-lcp.trafficmanager.net
 +.telemetry-na.docusign.net.akadns.net
 +.telemetry-nld2.adobe.io
@@ -2936,6 +2977,7 @@
 +.telemetry.individual.githubcopilot.com
 +.telemetry.microsoft.com
 +.telemetry.microsoft.us
++.telemetry.mozilla.org
 +.telemetry.myq-cloud.com.cdn.cloudflare.net
 +.telemetry.penpot.app.cdn.cloudflare.net
 +.telemetry.proctorcollect.com.cdn.cloudflare.net
@@ -3175,7 +3217,7 @@
 +.webvisor.com
 +.webvisor.org
 +.webvisor.ru
-+.webwap.org+.stun.l.google.com
++.webwap.org
 +.webwave.dev
 +.welte.jp
 +.weus2watcab01.blob.core.windows.net
@@ -3291,7 +3333,7 @@ a1.api.bbc.co.uk
 a1.nyt.com
 a19.g.akamai.net
 aa.agkn.com
-aamt.nbcnews.com+.360.yahoo.com
+aamt.nbcnews.com+.ads.mozilla.org
 abproxy.production-public.tubi.io
 activity.api.bbc.co.uk
 activity.api.bbc.com
