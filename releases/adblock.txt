@@ -2999,7 +2999,7 @@
 +.tgtus1-powerpoint-telemetry-vip.officeapps.live.com
 +.tgtus1-word-telemetry-vip.officeapps.live.com
 +.the-real-mscleo.com
-+.the-red-flag.org+.stun.l.google.com
++.the-red-flag.org3p.ampproject.net
 +.thepsusiwho.com
 +.thetradedesk-ads-html5.s3.amazonaws.com
 +.thetradedesk-ads-video.s3.amazonaws.com
@@ -3340,6 +3340,10 @@ abproxy.production-public.tubi.io
 accuradio.tritondigital.com
 activity.api.bbc.co.uk
 activity.api.bbc.com
+ad-demokawanslot-online.cdn.ampproject.org
+ad-doubleclick-net.cdn.ampproject.org
+ad-jp-ap-valuecommerce-com.cdn.ampproject.org
+ad-mynetreklam-com.cdn.ampproject.org
 ad-nlb-ext6.nonprod.klarna.net
 ad.app.us-east-1.prod.cloud.netflix.net
 ad.eu-west-1.prod.cloud.netflix.net
@@ -3354,7 +3358,9 @@ ads-dev.pinterest.com
 ads-image.production-public.tubi.io
 ads-mock.pinterest.com
 ads-pd.nbcuni.com
+ads-servebom-com.cdn.ampproject.org
 ads-staging.pinterest.com
+ads-thanhnien-vn.cdn.ampproject.org
 ads.app.us-east-1.prod.cloud.netflix.net
 ads.itd.netflix.com
 ads.next.cnn.com
@@ -3375,11 +3381,14 @@ aidsvc.netflix.com
 airbnb-1869ae.webflow.io
 als-svc.nytimes.com
 amazon-s3-file-uploads.webflow.io
+amptrack-dailymail-co-uk.cdn.ampproject.org
 analytic-clone.webflow.io
 analytic-dashboard-template.webflow.io
 analytics-api-s.cloudinary.com
 analytics-api.cloudinary.com
 analytics-api.webflow.com
+analytics-bollywoodshaadis-com.cdn.ampproject.org
+analytics-digit-in.cdn.ampproject.org
 analytics-gateway-prod.fallguys.oncatapult.com
 analytics-gateway.fallguys.oncatapult.com
 analytics-ingestion-production.tubitv.com+.data-lake-api.internet.apps.samsung.com
@@ -3395,6 +3404,7 @@ analytics.vgtimes.ru
 analytics.vpc.duolingo.com
 analytics.webflow.com
 angel-analytics.webflow.io
+anymind360-com.cdn.ampproject.org
 api-analytics.t-mobile.cz
 api.mp.nbcuni.com
 apollo-pixel.production-public.tubi.io
@@ -3449,8 +3459,10 @@ c00391-dl.urbanairship.com
 c00402-dl.urbanairship.com
 canopy-analytics-staging.webflow.io
 cbsileads.com
+cdn-bongdadem-net.cdn.ampproject.org
 cdn.cxense.com
 cdn.siftscience.com
+click-nativclick-com.cdn.ampproject.org
 cn.cbsimg.net
 coinbaseexnsion.webflow.io
 collect-us.app-us1.com
@@ -3503,6 +3515,7 @@ events.launchdarkly.us
 events.production.us1.pgw-pci.klarna.net
 evt.klarna.app
 excess.duolingo.com
+express-met-vgwort-de.cdn.ampproject.org
 facebookrecreation.webflow.io
 federated-id.live.api.bbc.co.uk
 fid.agkn.com
@@ -3523,6 +3536,7 @@ hbid.ams3.cdn.digitaloceanspaces.com
 healthguides.cnn.com
 helen-template.webflow.io
 hmnshudhmn24.medium.com
+i-imgur-com.cdn.ampproject.org
 i.l.cnn.net
 ichnaea-web.dradis.netflix.com
 ichnaea-web.netflix.com
@@ -3550,6 +3564,7 @@ lingnan.asia.qualtrics.com
 links.services.disqus.com
 lm-publicities.nyc3.digitaloceanspaces.com
 log--in-auth-uphold.webflow.io
+log-vietnamplus-vn.cdn.ampproject.org
 log.pinterest.com
 login-2-8dbe91.webflow.io
 logs.dradis.netflix.com
@@ -3559,6 +3574,7 @@ logs.us-east-1.internal.dradis.netflix.com
 logs.us-east-2.internal.dradis.netflix.com
 logs.us-west-2.internal.dradis.netflix.com
 lt110.tritondigital.com
+matomo-computerfloh-de.cdn.ampproject.org
 meetyoursoulmatenow.webflow.io
 metadata-static-files.sfo2.cdn.digitaloceanspaces.com
 meter-svc.nytimes.com
@@ -3582,9 +3598,11 @@ metric1443724182381.webflow.io
 metric1443885603902.webflow.io
 metric1444027162266.webflow.io
 metric909.webflow.io
+metrics-cbslocal-com.cdn.ampproject.org
 metrics-content.duckduckgo.com+.googleservicesforar.com
 metrics-cpa.webflow.io
 metrics-fox.webflow.io
+metrics-latercera-com.cdn.ampproject.org
 metrics.cbslocal.com
 metrics.cnn.com
 metrics.duolingo.com
@@ -3605,6 +3623,7 @@ netcoislogin-zone.webflow.io
 nisarg-c-metric.medium.com+.ad-constructor.yandex.ru
 nmtracking.netflix.com
 notice.t-mobile.com
+noticias-stats-bitban-com.cdn.ampproject.org
 now.t-mobile.com
 oimg.nbcuni.com
 om.cbsi.com
@@ -3629,6 +3648,8 @@ presentationtracking.netflix.com
 preview.webflow.com
 public---sso--ndax--x---cdn.webflow.io
 public-analytics.t-mobile.cz
+px-ads-linkedin-com.cdn.ampproject.org
+r-mradx-net.cdn.ampproject.org
 r.bbci.co.uk
 rainmaker.production-public.tubi.io
 rainmaker4.production-public.tubi.io
@@ -3642,6 +3663,7 @@ sa.bbc.co.uk
 saa.cbsnews.com
 saa.cbssports.com
 saras-analytics-v2.webflow.io
+sbbanner-com.cdn.ampproject.org
 sbux-dl.urbanairship.com
 scdn.cxense.com
 scomcluster.cxense.com
@@ -3660,10 +3682,12 @@ smetrics.t-mobile.com
 smetrics.t-mobilemoney.com+.qwapi.com
 soportetuexperto-orange-es.webflow.io
 sp1cluster.cxense.com
+ssl--vg03-met-vgwort-de.cdn.ampproject.org
 sso--en--cobo--trsuted-auth.webflow.io
 sso-nndax-io-auth.webflow.io
 sso-robinhood-com-cdn-oauth.webflow.io
 ssp.disqus.comaptmetrics.qualtrics.com
+static-addtoany-com.cdn.ampproject.org
 static.agkn.com
 static.mparticle.com
 static.prod.martech.cbssports.cloud
@@ -3671,6 +3695,7 @@ stats-collector.cxense.com+.crashlytics.com
 stats.bbc.co.uk
 stats.nhk.jp
 success-messages-and-error-messages.webflow.io
+sultan69--ad-pages-dev.cdn.ampproject.org
 support-portal.qualtrics.com
 survey-analytics-slider.webflow.io
 survey-analytics.webflow.io
@@ -3688,6 +3713,7 @@ tmfp.klarna.com
 tms.fmm.io
 topview-analytics-llc.webflow.io
 tracker-ai.gitbook.io+.api.optimizely.com
+tracker-metricool-com.cdn.ampproject.org
 tracker.metricool.com
 tracking-nativesdks.mparticle.com
 tracking.launchdarkly.com
@@ -3699,6 +3725,17 @@ umto.cnn.com
 up.nytimes.com
 upload-widget.cloudinary.com
 user-signals.production-public.tubi.io
+v9banners-com.cdn.ampproject.org
+vg01-met-vgwort-de.cdn.ampproject.org
+vg02-met-vgwort-de.cdn.ampproject.org
+vg03-met-vgwort-de.cdn.ampproject.org
+vg04-met-vgwort-de.cdn.ampproject.org
+vg05-met-vgwort-de.cdn.ampproject.org
+vg06-met-vgwort-de.cdn.ampproject.org
+vg07-met-vgwort-de.cdn.ampproject.org
+vg08-met-vgwort-de.cdn.ampproject.org
+vg09-met-vgwort-de.cdn.ampproject.org
+vg10-met-vgwort-de.cdn.ampproject.org
 victory.cnn.comcargo-tracker.gitbook.io
 video-analytics-api.cloudinary.com
 video.streamtape.com
@@ -3714,6 +3751,7 @@ wix.livechatinc.com
 woohoo.sfo2.digitaloceanspaces.com
 woolyfeed-tags.nyc3.cdn.digitaloceanspaces.com
 worldmtcs.nhk.jp+.ad.reddit.com
+www-log-com-tr.cdn.ampproject.org+.stun.l.google.com
 www.i.cdn.cnn.com
 yield-op-idsync.live.streamtheworld.com
 yield-op-tracker.api.tritondigital.com
