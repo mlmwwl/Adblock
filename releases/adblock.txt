@@ -2998,8 +2998,10 @@
 +.tgtus1-excel-telemetry-vip.officeapps.live.com
 +.tgtus1-powerpoint-telemetry-vip.officeapps.live.com
 +.tgtus1-word-telemetry-vip.officeapps.live.com
++.the-organized-office.com
++.the-ozone-project.com3p.ampproject.net
 +.the-real-mscleo.com
-+.the-red-flag.org3p.ampproject.net
++.the-red-flag.org
 +.thepsusiwho.com
 +.thetradedesk-ads-html5.s3.amazonaws.com
 +.thetradedesk-ads-video.s3.amazonaws.com
