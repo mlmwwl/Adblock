@@ -1,0 +1,12 @@
+api.cxense.com
+cdn.cxense.com
+comcluster.cxense.com
+csyn.cxense.com
+csyn-r.cxense.com
+cxad.cxense.com
+id.cxense.com
+p1cluster.cxense.com
+scdn.cxense.com
+scomcluster.cxense.com
+sp1cluster.cxense.com
+stats-collector.cxense.com
