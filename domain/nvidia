@@ -1,0 +1,12 @@
+telemetry.data.nvidia.com
+events.gfe.nvidia.com
+telemetry.gfe.nvidia.com
+geo-location-api.gx.nvidia.com
+gx-target-experiments-frontend-api.gx.nvidia.com
+lightstep.kaizen.nvidia.com
+otel.kaizen.nvidia.com
+metrics.nvidia.com
+nvmos.nvidia.com
+prd-appstats.nvidia.com
+smetrics.nvidia.com
+telemetry.nvidia.com

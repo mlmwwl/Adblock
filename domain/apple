@@ -94,3 +94,16 @@
 +.weather-analytics-events.news.apple-dns.net
 +.notes-analytics-events.news.apple-dns.net
 +.books-analytics-events.news.apple-dns.net
++.xp-cdn-lb.itunes-apple.com.akadns.net
++.searchads.lb-apple.com.akadns.net
++.partiality.itunes-apple.com.akadns.net
++.ab.apple.com.akadns.net
++.cstat-lb.apple.com.akadns.net
++.diagassets-lb.apple.com.akadns.net
++.diagnostics.apple.com.akadns.net
++.iadcontent-lb.apple.com.akadns.net
++.iadsdk.apple.com.akadns.net
++.idiagnostics.apple.com.akadns.net
++.iphonesubmissions.apple.com.akadns.net
++.radarsubmissions.apple.com.akadns.net
++.xp.itunes-apple.com.akadns.net
