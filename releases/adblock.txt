@@ -217,6 +217,7 @@
 +.ads.yahoo.de
 +.ads.yandex.com
 +.ads.yandex.ru
++.ads.yimg.com
 +.ads.yimg.com.edgesuite.net
 +.ads.youtube.com
 +.ads1.google.com
@@ -569,6 +570,7 @@
 +.as-ms-pro-loadbala-sugvjp2xlhjz-1716713284.eu-west-1.elb.amazonaws.com
 +.asl-company.ru
 +.assets-momentum.akamaized.net
++.assets.video.yahoo.net
 +.aston-mpr-web-push-notification.s3-us-west-2.amazonaws.com
 +.asuscomm.com
 +.aswpapius.com
@@ -982,6 +984,7 @@
 +.d.14yaa.com
 +.d.reddit.com
 +.d.wanyouxi7.com
++.d.yimg.com
 +.d303e3cdddb4ded4b6ff495a7b496ed5.s3.amazonaws.com
 +.dackpartner-web.s3.amazonaws.com
 +.damiancollier.com
@@ -1138,6 +1141,7 @@
 +.eaus2watcab02.blob.core.windows.net
 +.ebay-tracking-319957833.eu-west-2.elb.amazonaws.com
 +.ebukanewpages.blob.core.windows.net
++.ec.yimg.com
 +.ec2-13-230-253-66.ap-northeast-1.compute.amazonaws.com
 +.ece8e19e-9d8c-4895-ad96-10e80616126d.rdbroker-g-us-r1.wvd.microsoft.com
 +.ecommstats.s3.amazonaws.com
@@ -1146,6 +1150,7 @@
 +.edge-log-gateway-web-2f8111e8e5387748.elb.us-east-1.amazonaws.com
 +.edge-mcdn-beacon.secure.yahoo.com
 +.edge-prebid-pbs.g03.yahoodns.net
++.edgecast-vod.yimg.com
 +.edgelib.net
 +.edgeoffer.microsoft.com
 +.edgetrksvc.ebay.com.edgekey.net
@@ -1480,6 +1485,7 @@
 +.igtd-1462a305-ad10-4b7d-990a-123d5644eb1b.s3.eu-west-1.amazonaws.com
 +.igtd-1462a305-ad10-4b7d-990a-123d5644eb1b.s3.us-east-1.amazonaws.com
 +.im-apps.net
++.im.c.yimg.jp
 +.images-mercury.mzstatic.com
 +.images-mercury.v.aaplimg.com
 +.images.chbusiness.samsung.com
@@ -2332,6 +2338,7 @@
 +.rfihub.com.akadns.net
 +.rfihub.net
 +.rheddh.com
++.richmedia.yimg.com
 +.riderspin.com
 +.ritee.in
 +.rkdms.com
@@ -2470,6 +2477,7 @@
 +.searchlabspartnerservice-pa.googleapis.com
 +.searchpromo-pa.googleapis.com
 +.sec.xiaoshabi.nl
++.sec.yimg.com
 +.securedlogin.z13.web.core.windows.net
 +.securemetrics.apple.com
 +.securemetrics.v.aaplimg.com
@@ -3181,6 +3189,7 @@
 +.tynt.com.cdn.cloudflare.net
 +.uaas.yandex.ru
 +.ucs.query.yahoo.com
++.udc.yahoo.coma1.api.bbc.com
 +.udcm.yahoo.com
 +.ugcbrainient-a.akamaihd.net
 +.ugdtimg.com
@@ -3216,6 +3225,9 @@
 +.us-mesh.events.data.microsoft.com
 +.us-mobile.events.data.microsoft.com
 +.us-teams.events.data.microsoft.com
++.us.i1.yimg.com
++.us.js2.yimg.com
++.us.yimg.com+.3j0pw4ed7uac-a.akamaihd.net
 +.us2-events-1-427560769.us-west-2.elb.amazonaws.com
 +.us2-rum-events-1307658285.us-west-2.elb.amazonaws.com
 +.usage-analytics-prod-use1-1514166087.us-east-1.elb.amazonaws.com
@@ -3459,7 +3471,7 @@
 +.yc-ads.s3.amazonaws.com
 +.yieldlab.net.edgekey.net
 +.yieldmo-builds.s3.amazonaws.com
-+.yjtag.yahoo.co.jpa1.api.bbc.com
++.yjtag.yahoo.co.jp
 +.youborafds01.com
 +.youboranqs01.com
 +.youtransfer.net
@@ -3877,6 +3889,7 @@ scomcluster.cxense.com
 secure---sso---robinhood---com-cdn.webflow.io
 sentry.sourceforge.net+.cane.intel.com
 service.cmp.oath.com
+service.cmp.oath.com+.us.a1.yimg.com
 services.brightline.tv+.bf-ad.net.26664.edgekey.net
 sgtm.qualtrics.com
 share-na3.hsforms.com
@@ -3963,7 +3976,6 @@ webflow-animation-crash-no-animations.webflow.io
 webflow-interactions-crash-course.webflow.io
 weborama.ams3.cdn.digitaloceanspaces.com
 widget.cloudinary.com
-widget.cloudinary.com+.3j0pw4ed7uac-a.akamaihd.net
 wix.livechatinc.com 
 wkxppshj-qx.global.ssl.fastly.net
 woohoo.sfo2.digitaloceanspaces.com
