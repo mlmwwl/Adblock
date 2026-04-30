@@ -1,0 +1,11 @@
++.us.a1.yimg.com
++.ads.yimg.com
++.im.c.yimg.jp
++.d.yimg.com
++.ec.yimg.com
++.edgecast-vod.yimg.com
++.us.i1.yimg.com
++.us.js2.yimg.com
++.richmedia.yimg.com
++.sec.yimg.com
++.us.yimg.com
