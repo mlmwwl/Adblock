@@ -948,7 +948,9 @@
 +.crashlytics.twitter.com
 +.crashlytics2.l.google.com
 +.crashlyticsreports-pa.googleapis.com
++.crazyegg.com
 +.crazyegg.com.cdn.cloudflare.net
++.crazyeggcdn.com3p.ampproject.net
 +.crazygames-prod-nlb-analytics-9f975bbd428d2caa.elb.us-west-2.amazonaws.com
 +.creative-ads.s3.amazonaws.com
 +.creative-ads.s3.us-east-2.amazonaws.com
@@ -2268,7 +2270,7 @@
 +.pub-ads-o-b-cms-wst.s3.us-west-1.amazonaws.com
 +.pub-ads-o-cms-wst.s3.us-west-1.amazonaws.com
 +.pub-algeriatenders.s3.eu-central-1.amazonaws.com
-+.pub.network3p.ampproject.net
++.pub.network
 +.pubgw.yahoo.com
 +.public-analytics-swiggy-com-766210341.ap-southeast-1.elb.amazonaws.com
 +.public.demo.securecloudsandbox.com
