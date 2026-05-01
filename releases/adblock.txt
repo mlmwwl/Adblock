@@ -950,7 +950,7 @@
 +.crashlyticsreports-pa.googleapis.com
 +.crazyegg.com
 +.crazyegg.com.cdn.cloudflare.net
-+.crazyeggcdn.com3p.ampproject.net
++.crazyeggcdn.com
 +.crazygames-prod-nlb-analytics-9f975bbd428d2caa.elb.us-west-2.amazonaws.com
 +.creative-ads.s3.amazonaws.com
 +.creative-ads.s3.us-east-2.amazonaws.com
@@ -2392,6 +2392,8 @@
 +.sabungkingbet189.com
 +.safe-recover.s3.us-east-1.amazonaws.com
 +.sail-horizon.com
++.sail-horizon.com3p.ampproject.net
++.sail-track.com
 +.samsung.appnext.com
 +.samsung.attn.tv
 +.samsung.bimtrackapp.co
