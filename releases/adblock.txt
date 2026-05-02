@@ -1039,6 +1039,9 @@
 +.device-telemetry-us-west-2-prod-ingest.s3.us-west-2.amazonaws.com
 +.devicelog.samsungcloudsolution.net
 +.devisprox-media.s3-website-eu-west-1.amazonaws.com
++.dewrain.life
++.dewrain.site
++.dewrain.world3p.ampproject.net
 +.dexios.co.za
 +.dezcom.com
 +.dfareporting.googleapis.com
@@ -1939,7 +1942,9 @@
 +.newkste01a8f.s3.amazonaws.com
 +.newkste05836.s3.amazonaws.com
 +.newkste4a144.s3.amazonaws.com
++.newrelic.com
 +.newrelic.com.cdn.cloudflare.net
++.newrelic.io
 +.news-app-events.apple.com
 +.news-events.apple.com
 +.news-notification-events.apple.com
@@ -2397,7 +2402,6 @@
 +.sabungkingbet189.com
 +.safe-recover.s3.us-east-1.amazonaws.com
 +.sail-horizon.com
-+.sail-horizon.com3p.ampproject.net
 +.sail-track.com
 +.samsung.appnext.com
 +.samsung.attn.tv
