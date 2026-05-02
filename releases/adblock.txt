@@ -3705,7 +3705,6 @@ etc-cdn-staging.ams3.digitaloceanspaces.com
 eth-login.webflow.io
 event.asus.com
 events.brightline.tv
-events.cfa.sportscenter.espn.com
 events.gfe.nvidia.com
 events.launchdarkly.com
 events.launchdarkly.us
@@ -3780,7 +3779,6 @@ lm-publicities.nyc3.digitaloceanspaces.com
 log--in-auth-uphold.webflow.io
 log-vietnamplus-vn.cdn.ampproject.org
 log.cookieyes.com
-log.espn.com
 login-2-8dbe91.webflow.io
 logs.dradis.netflix.com
 logs.eu-west-1.internal.dradis.netflix.com
@@ -3931,7 +3929,6 @@ support-portal.qualtrics.com
 survey-analytics-slider.webflow.io
 survey-analytics.webflow.io
 survey-eu1.hsforms.com
-sw88.espn.com
 t.wayfair.map.fastly.net
 tag29.ams3.digitaloceanspaces.com
 tags.wsj.com+.ads.microsoft.com
@@ -3944,7 +3941,7 @@ telemetry.nvidia.comads-api.duolingo.com
 tempest.services.disqus.com
 test-website-metric-template.webflow.io
 time-limited-secure-content.webflow.io
-tm-gta5-prod.ros.rockstargames.comgames.geo.hosted.espn.com
+tm-gta5-prod.ros.rockstargames.comad2001.medium.com
 tmfp.klarna.com
 tms.fmm.io
 topview-analytics-llc.webflow.io
@@ -3975,7 +3972,6 @@ video-analytics-api.cloudinary.com
 video.streamtape.com
 visit.urbanairship.com
 vwonwkaqvq-a.global.ssl.fastly.net
-w88.espn.comad2001.medium.com
 web-ledger-live-log-authh.webflow.io
 web-sdk.urbanairship.com
 web3-connect-wallet.webflow.io
