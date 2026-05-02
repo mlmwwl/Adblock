@@ -161,6 +161,7 @@
 +.ads-banner.s3.ap-south-1.amazonaws.com
 +.ads-bidder-api.twitter.com
 +.ads-canalplus.akamaized.net
++.ads-dev.pinterest.com
 +.ads-developers.yahoo.co.jp
 +.ads-display.yahooapis.jp
 +.ads-feedback.yahoo.co.jp
@@ -170,6 +171,7 @@
 +.ads-live-lbs-1947742752.us-west-1.elb.amazonaws.com
 +.ads-media3.netrefer.edgekey.net
 +.ads-meta-logo.s3.amazonaws.com
++.ads-mock.pinterest.com
 +.ads-msn-com-profile.trafficmanager.net
 +.ads-mspremium-io-1878973238.us-east-1.elb.amazonaws.com
 +.ads-partners.coupang.com.edgekey.net
@@ -182,6 +184,7 @@
 +.ads-rendering-prod.corp.google.com
 +.ads-server-lb-145243948.ap-southeast-1.elb.amazonaws.com
 +.ads-staging-public.s3.us-east-1.amazonaws.com
++.ads-staging.pinterest.com
 +.ads-zeasn-lb-680910626.eu-west-1.elb.amazonaws.com
 +.ads.auctions.yahoo.com
 +.ads.bridgetrack.com.edgesuite.net
@@ -544,7 +547,7 @@
 +.applicationinsights.microsoft.com
 +.applicationinsights.us-east-1.amazonaws.com
 +.applovin.com
-+.appmetrica.yandex.comads.pinterest.com
++.appmetrica.yandex.com+.ads.pinterest.com
 +.appmetrica.yandex.net
 +.appmetrica.yandex.ru
 +.appmetrika.yandex.ru
@@ -980,6 +983,7 @@
 +.cstat.cdn-apple.com
 +.cstat.g.aaplimg.com
 +.cstm-ads.nbcuni.com.cdn.cloudflare.net
++.ct.pinterest.com
 +.ct3-24.ru
 +.cumedago.z16.web.core.windows.net
 +.cxense.com.edgekey.net
@@ -1699,6 +1703,7 @@
 +.log.gitlab.net
 +.log.gprd.gitlab.net
 +.log.optimizely.com
++.log.pinterest.com
 +.log.samsunghrm.com
 +.log.strm.yandex.ru
 +.log.v-videoapp.com.cdn.cloudflare.net
@@ -3177,7 +3182,9 @@
 +.trendmd.s3.amazonaws.com
 +.trial-eum-clientnsv4-s.akamaihd.net
 +.trial-eum-clienttons-s.akamaihd.net
++.trk.pinterest.com
 +.trk2.cp20.com.cdn.cloudflare.net
++.trk2.pinterest.comad-tech.nbcuni.com
 +.tronssan.github.io
 +.trtmyanmar.com
 +.tru.am
@@ -3529,12 +3536,9 @@ adimages.fra1.cdn.digitaloceanspaces.com
 ads-adfinix-staging.sgp1.cdn.digitaloceanspaces.com
 ads-adfinix-staging.sgp1.digitaloceanspaces.com
 ads-analytics.stellar.cnn.com
-ads-dev.pinterest.com
 ads-image.production-public.tubi.io
-ads-mock.pinterest.com
 ads-pd.nbcuni.com
 ads-servebom-com.cdn.ampproject.org
-ads-staging.pinterest.com
 ads-thanhnien-vn.cdn.ampproject.org
 ads.app.us-east-1.prod.cloud.netflix.net
 ads.global.ssl.fastly.net
@@ -3671,7 +3675,6 @@ creative-tracker.tritondigital.com
 csapi.asus.com
 csyn-r.cxense.com
 csyn.cxense.com
-ct.pinterest.com
 customad.cnn.com
 customerevents.dradis.netflix.com
 customerevents.eu-west-1.internal.dradis.netflix.com
@@ -3702,6 +3705,7 @@ etc-cdn-staging.ams3.digitaloceanspaces.com
 eth-login.webflow.io
 event.asus.com
 events.brightline.tv
+events.cfa.sportscenter.espn.com
 events.gfe.nvidia.com
 events.launchdarkly.com
 events.launchdarkly.us
@@ -3776,7 +3780,7 @@ lm-publicities.nyc3.digitaloceanspaces.com
 log--in-auth-uphold.webflow.io
 log-vietnamplus-vn.cdn.ampproject.org
 log.cookieyes.com
-log.pinterest.com
+log.espn.com
 login-2-8dbe91.webflow.io
 logs.dradis.netflix.com
 logs.eu-west-1.internal.dradis.netflix.com
@@ -3927,6 +3931,7 @@ support-portal.qualtrics.com
 survey-analytics-slider.webflow.io
 survey-analytics.webflow.io
 survey-eu1.hsforms.com
+sw88.espn.com
 t.wayfair.map.fastly.net
 tag29.ams3.digitaloceanspaces.com
 tags.wsj.com+.ads.microsoft.com
@@ -3939,7 +3944,7 @@ telemetry.nvidia.comads-api.duolingo.com
 tempest.services.disqus.com
 test-website-metric-template.webflow.io
 time-limited-secure-content.webflow.io
-tm-gta5-prod.ros.rockstargames.comad2001.medium.com
+tm-gta5-prod.ros.rockstargames.comgames.geo.hosted.espn.com
 tmfp.klarna.com
 tms.fmm.io
 topview-analytics-llc.webflow.io
@@ -3948,8 +3953,6 @@ tracker-metricool-com.cdn.ampproject.org
 tracker.metricool.com
 tracking-nativesdks.mparticle.com
 tracking.launchdarkly.com
-trk.pinterest.com
-trk2.pinterest.comad-tech.nbcuni.com
 tronlink-walletextension.webflow.io
 umami-thai-food.webflow.io
 umto.cnn.com
@@ -3972,6 +3975,7 @@ video-analytics-api.cloudinary.com
 video.streamtape.com
 visit.urbanairship.com
 vwonwkaqvq-a.global.ssl.fastly.net
+w88.espn.comad2001.medium.com
 web-ledger-live-log-authh.webflow.io
 web-sdk.urbanairship.com
 web3-connect-wallet.webflow.io
