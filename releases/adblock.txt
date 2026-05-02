@@ -927,6 +927,7 @@
 +.convertexperiments.com.edgekey.net
 +.convex-rr.global.dual.dotomi.weighted.com.akadns.net
 +.conviva.com
++.conviva.com3p.ampproject.net
 +.cookiex.ngd.yahoo.com
 +.copilot-telemetry-service.githubusercontent.com
 +.copilot-telemetry.githubusercontent.com
@@ -1041,7 +1042,7 @@
 +.devisprox-media.s3-website-eu-west-1.amazonaws.com
 +.dewrain.life
 +.dewrain.site
-+.dewrain.world3p.ampproject.net
++.dewrain.world
 +.dexios.co.za
 +.dezcom.com
 +.dfareporting.googleapis.com
@@ -3200,6 +3201,7 @@
 +.tving-service-adproxy-log-1358671451.ap-northeast-2.elb.amazonaws.com
 +.tvm-tv4-freewheel.akamaized.net
 +.tvp-log-server-prod-1499253244.us-east-1.elb.amazonaws.com
++.tvp.tv
 +.twitter-badges.s3.amazonaws.com
 +.tynt.com.cdn.cloudflare.net
 +.uaas.yandex.ru
@@ -3521,6 +3523,7 @@ a1.api.bbc.co.uk
 a1.nyt.com
 a19.g.akamai.net
 aa.agkn.com
+aa.paramountplus.com
 aamt.nbcnews.com+.ads.mozilla.org
 abproxy.production-public.tubi.io
 accuradio.tritondigital.com
@@ -3694,6 +3697,7 @@ dd.nytimes.com
 device-api.urbanairship.com
 dfapvmql-q.global.ssl.fastly.net
 diffuser-cdn.app-us1.com
+dns-clientinfo.vtg.paramount.tech
 doppler-beacon.cbsivideo.com
 doppler-client-events.cbsivideo.com
 doppler-error.cbsivideo.com
@@ -3712,6 +3716,7 @@ events.brightline.tv
 events.gfe.nvidia.com
 events.launchdarkly.com
 events.launchdarkly.us
+events.paramount.tech
 events.polarbyte.com
 events.production.us1.pgw-pci.klarna.net
 evt.klarna.app
@@ -3891,6 +3896,7 @@ s2s.mparticle.com
 sa.bbc.co.uk
 saa.cbsnews.com
 saa.cbssports.com
+saa.paramountplus.com+.analytics.gitlab.com
 saras-analytics-v2.webflow.io
 sbbanner-com.cdn.ampproject.org
 sbux-dl.urbanairship.com
@@ -3906,7 +3912,7 @@ share-na3.hsforms.com
 showbet-static.ams3.digitaloceanspaces.com
 siteintercept.qualtrics.com
 sky-dl.urbanairship.com
-slc.cbssports.com+.analytics.gitlab.com
+slc.cbssports.com
 smetrics.akamai.com
 smetrics.cnn.com
 smetrics.nvidia.com
