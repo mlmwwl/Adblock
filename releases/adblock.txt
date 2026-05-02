@@ -113,6 +113,8 @@
 +.adhs.events.data.microsoft.com
 +.adimages.startribune.com.cdn.cloudflare.net
 +.adimg.uimserv.net.edgekey.net
++.adjust.com
++.adjust.io
 +.adktracking-1671721947.eu-west-3.elb.amazonaws.com
 +.adktracking02-1349985346.eu-west-3.elb.amazonaws.com
 +.admanager.yahoo.com
@@ -927,7 +929,6 @@
 +.convertexperiments.com.edgekey.net
 +.convex-rr.global.dual.dotomi.weighted.com.akadns.net
 +.conviva.com
-+.conviva.com3p.ampproject.net
 +.cookiex.ngd.yahoo.com
 +.copilot-telemetry-service.githubusercontent.com
 +.copilot-telemetry.githubusercontent.com
@@ -3517,6 +3518,7 @@
 +.zwbufziw6o4q92.s3.amazonaws.com
 +.zycdjz.com
 +.zynga2-a.akamaihd.net
+3p.ampproject.net
 7q1z79gxsi.global.ssl.fastly.net
 a-reporting.nytimes.com
 a1.api.bbc.co.uk
@@ -3784,6 +3786,7 @@ lightstep.medium.systems
 lilys-0x800705b4-error-project.webflow.io
 lingnan.asia.qualtrics.com
 links.services.disqus.com
+litix.digitalvideoplatform.com+.us.a1.yimg.com
 lm-publicities.nyc3.digitaloceanspaces.com
 log--in-auth-uphold.webflow.io
 log-vietnamplus-vn.cdn.ampproject.org
@@ -3905,7 +3908,6 @@ scomcluster.cxense.com
 secure---sso---robinhood---com-cdn.webflow.io
 sentry.sourceforge.net+.cane.intel.com
 service.cmp.oath.com
-service.cmp.oath.com+.us.a1.yimg.com
 services.brightline.tv+.bf-ad.net.26664.edgekey.net
 sgtm.qualtrics.com
 share-na3.hsforms.com
