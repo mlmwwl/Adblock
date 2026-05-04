@@ -3325,7 +3325,7 @@
 +.vssris8yu8f2lyxenfoxeacjm26fun.s3.eu-west-1.amazonaws.com
 +.vstelemetry.trafficmanager.net
 +.vunena.com
-+.vungle.akadns.netapplog.livechatinc.com
++.vungle.akadns.net
 +.vungle.com
 +.vvetransferfile72836.blob.core.windows.net
 +.vz-bhrx-log.s3.amazonaws.com
@@ -3469,6 +3469,7 @@
 +.xp-cdn.apple.com
 +.xp-qa.apple.com
 +.xp.apple.com
++.xp.itunes-apple.com.akadns.netapplog.livechatinc.com
 +.xp.itunes-apple.com.akadns.nettelemetry.data.nvidia.com
 +.xp.v.aaplimg.com
 +.xp2023-pix.s3.amazonaws.com
