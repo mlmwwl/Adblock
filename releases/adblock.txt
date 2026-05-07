@@ -432,7 +432,6 @@
 +.analytics.elo7.com.br.cdn.cloudflare.net
 +.analytics.getpostman.com.cdn.cloudflare.net
 +.analytics.githubassets.com
-+.analytics.gitlab.com
 +.analytics.global.sky.com-secure.edgekey.net
 +.analytics.gmc.com.edgekey.net
 +.analytics.google.com
@@ -491,7 +490,6 @@
 +.androidtvchannels-pa.googleapis.com
 +.androidtvwatsonfe-pa.googleapis.com
 +.annonseweb.s3-eu-west-1.amazonaws.com
-+.anti-tracking.gitlab.io
 +.apac.events.data.microsoft.com
 +.api-adservices.apple.com
 +.api-analytics-qa.samsungknox.com
@@ -1856,6 +1854,7 @@
 +.metrica.yandex.ru
 +.metrics-awsvpnclient.us-east-1.amazonaws.com
 +.metrics-config.icloud.com
++.metrics-content.duckduckgo.com+.googleservicesforar.com
 +.metrics-sentry.cvshealth.com.edgekey.net
 +.metrics.adobe.com
 +.metrics.adobeprimetime.com
@@ -2034,7 +2033,7 @@
 +.oracleinfinity.io.edgekey.net
 +.origin-tracker.business.githubcopilot.com
 +.origin-tracker.enterprise.githubcopilot.com
-+.origin-tracker.githubusercontent.com
++.origin-tracker.githubusercontent.comadapt.t-mobile.com
 +.origin-tracker.individual.githubcopilot.com
 +.osb-krsvc.samsungqbe.com
 +.osb.samsungqbe.com
@@ -3194,7 +3193,6 @@
 +.tronssan.github.io
 +.trtmyanmar.com
 +.tru.am
-+.trx.gitlab.netadapt.t-mobile.com
 +.tsm-js.s3.amazonaws.com
 +.tul-onlinesales-ad-server.s3.ap-south-1.amazonaws.com
 +.turn.com.akadns.net
@@ -3707,7 +3705,7 @@ doppler-error.cbsivideo.com
 doppler-reporting.cbsivideo.com
 e5019.e2.akamaiedge.netmediacdn.disqus.com
 eg.nytimes.com
-elections.ap.orgimproving.duckduckgo.com
+elections.ap.org+.improving.duckduckgo.com
 engineering.siftscience.com+.rum.af-south-1.amazonaws.com
 entertainment-live.sgp1.digitaloceanspaces.com
 eshops-uet-tags.ams3.cdn.digitaloceanspaces.com
@@ -3825,7 +3823,6 @@ metric1443885603902.webflow.io
 metric1444027162266.webflow.io
 metric909.webflow.io
 metrics-cbslocal-com.cdn.ampproject.org
-metrics-content.duckduckgo.com+.googleservicesforar.com
 metrics-cpa.webflow.io
 metrics-fox.webflow.io
 metrics-latercera-com.cdn.ampproject.org
