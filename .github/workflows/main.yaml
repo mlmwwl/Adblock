@@ -5,7 +5,7 @@ on:
     paths:
       - 'domain/**'
       - 'tracker/**'
-      - 'blocklist/**'
+      - 'other/**'
   workflow_dispatch:
 
 jobs:
@@ -45,7 +45,7 @@ jobs:
         run: |
           mkdir -p releases
           # 合并所有文件，将 *.domain 格式统一转换为 +.domain，再去重排序
-          find domain/ tracker/ blocklist/ -type f -exec cat {} + \
+          find domain/ tracker/ other/ -type f -exec cat {} + \
             | sed 's/^\*\./+./g' \
             | sort -u > releases/adblock.txt
           echo "Total domains gathered: $(wc -l < releases/adblock.txt)"
