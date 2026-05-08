@@ -1045,6 +1045,7 @@
 +.deathmatchuk.com
 +.debugbear.com
 +.dec-visio-telemetry.officeapps.live.com
++.decibelinsight.net
 +.deepnoxa.com
 +.delivery-globaldhlauth.github.io
 +.delp-heizungsbau.de
@@ -1527,7 +1528,6 @@
 +.images.partnersupport.samsung.com
 +.images.ssbusiness.samsung.com
 +.imnotproudof.s3.us-east-1.amazonaws.com
-+.improving.duckduckgo.com
 +.imrworldwide.com
 +.imtwjwoasak-pmi-pixel-origin.s3.amazonaws.com
 +.in-mobile.events.data.microsoft.com
@@ -1879,7 +1879,6 @@
 +.metrica.yandex.ru
 +.metrics-awsvpnclient.us-east-1.amazonaws.com
 +.metrics-config.icloud.com
-+.metrics-content.duckduckgo.com
 +.metrics-sentry.cvshealth.com.edgekey.net
 +.metrics.adobe.com
 +.metrics.adobeprimetime.com
@@ -3547,6 +3546,8 @@
 +.zynga2-a.akamaihd.net
 3p.ampproject.net
 7q1z79gxsi.global.ssl.fastly.net
+a-api.anthropic.com
+a-cdn.anthropic.com
 a-reporting.nytimes.com
 a.nytimes.com
 a1.api.bbc.co.uk
@@ -3637,6 +3638,7 @@ apcdp.apnews.com
 api-analytics.t-mobile.cz
 api.cxense.com
 api.mp.nbcuni.com
+api.statsig.com
 apollo-pixel.production-public.tubi.io
 applog.livechatinc.com
 apps.nhk.jp
@@ -3815,6 +3817,7 @@ ichnaea.us-east-1.internal.dradis.netflix.com
 ichnaea.us-east-2.internal.dradis.netflix.com
 id.cxense.com
 images-aud.sourceforge.net
+improving.duckduckgo.com
 includemodal.global.ssl.fastly.net
 infinite-pixel-tracking.gitbook.io
 infinity-ground.gitbook.io
@@ -3873,6 +3876,7 @@ metric1443885603902.webflow.io
 metric1444027162266.webflow.io
 metric909.webflow.io
 metrics-cbslocal-com.cdn.ampproject.org
+metrics-content.duckduckgo.com
 metrics-cpa.webflow.io
 metrics-fox.webflow.io
 metrics-latercera-com.cdn.ampproject.org
