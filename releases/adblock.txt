@@ -2335,7 +2335,6 @@
 +.qnajplxtvz-a.akamaihd.net
 +.qsearch-a.akamaihd.net
 +.qt2-ngfts.lge.com.edgekey.net
-+.quad9.net
 +.quantserve.com
 +.quantserve.net
 +.quantum-ingest-production-770847698.us-east-1.elb.amazonaws.com
