@@ -1,6 +1,4 @@
 
-# abuse.ch URLhaus Host file
-## https://github.com/celenityy/BadBlock
 +.0022a601.pphost.net
 +.0x00000000000.substack.com
 +.111101111.ru
@@ -1103,6 +1101,7 @@
 +.dls-account.di.atlas.samsung.com
 +.dls-ddc.dqa.samsung.com
 +.dls-udc.dqa.samsung.com
++.dmtgvn.com
 +.dna-analytics.xero.com.edgekey.net
 +.dns-monitoring-target.amazonaws.com
 +.doc-0s-44-docstext.googleusercontent.com
@@ -1244,6 +1243,7 @@
 +.events-dre.op.dbankcloud.com.edgekey.net
 +.events-sandbox.data.microsoft.com
 +.events.ap-southeast-1.amazonaws.com
++.events.cfa.sportscenter.espn.com
 +.events.data.trafficmanager.net
 +.events.eu-west-1.amazonaws.com
 +.events.reddit.com
@@ -1360,6 +1360,7 @@
 +.gamecheap.store
 +.gamedot-adx-alb-1894220976.us-east-2.elb.amazonaws.com
 +.gameimg.heytapimg.com.akamaized.net
++.games.geo.hosted.espn.com
 +.games.payos.cfd
 +.ganon.yahoo.com
 +.gapromomanager-pa.googleapis.com
@@ -1728,6 +1729,7 @@
 +.log.byteoversea.com.edgekey.net
 +.log.disk.yandex.net
 +.log.enterprise.api-maps.yandex.ru
++.log.espn.com
 +.log.gitlab.net
 +.log.gprd.gitlab.net
 +.log.optimizely.com
@@ -1904,6 +1906,7 @@
 +.minute-ly.com
 +.mistralkorea.ru
 +.mitreart.com
++.mixi.media
 +.mixpanel.substack.com
 +.mj-snowplow-static-js.s3.amazonaws.com
 +.ml-native-login-log.s3-ap-southeast-1.amazonaws.com
@@ -1941,6 +1944,7 @@
 +.mundocarnes.cl
 +.muon-collector-kube-1510719261.ca-central-1.elb.amazonaws.com
 +.murayadec.z6.web.core.windows.net
++.mvads.cdn.espn.com
 +.mvchallenges.s3-website-eu-west-1.amazonaws.com
 +.my-org-cloudtrail-logs.s3.eu-central-1.amazonaws.com
 +.my-org-cloudtrail-logs.s3.us-east-1.amazonaws.com
@@ -2331,6 +2335,7 @@
 +.qnajplxtvz-a.akamaihd.net
 +.qsearch-a.akamaihd.net
 +.qt2-ngfts.lge.com.edgekey.net
++.quad9.net
 +.quantserve.com
 +.quantserve.net
 +.quantum-ingest-production-770847698.us-east-1.elb.amazonaws.com
@@ -2581,6 +2586,7 @@
 +.shqdown.ggzuhao.com
 +.shreesaiseva.org
 +.sia.internet.apps.samsung.com
++.siftscience.com
 +.signalszone.com
 +.silverhost.vg
 +.simple-cdn.s3.amazonaws.com
@@ -2999,6 +3005,7 @@
 +.sutterpoint.com
 +.svirtual.sanviatorperu.edu.pe
 +.sw-df-ads-scraping-creatives-production.s3.amazonaws.com
++.sw88.espn.com
 +.swiftanalyticsprod.servicebus.windows.net
 +.sync-yieldmo-com-tf-1869548451.eu-west-1.elb.amazonaws.com
 +.syncplusconfig.s3.amazonaws.com
@@ -3153,6 +3160,7 @@
 +.titan-tracker-balancer-1544302032.us-east-2.elb.amazonaws.com
 +.tm-analytics-pr.trafficmanager.net
 +.tm-enrollment-telemetry-datacore.trafficmanager.net
++.tns-counter.ru
 +.ton.twimg.com
 +.toolbar.google.com
 +.toolbar.yahoo.com
@@ -3360,6 +3368,7 @@
 +.w3-reporting-nel.reddit.com
 +.w3-reporting.reddit.com
 +.w4o7aea80ss3-a.akamaihd.net
++.w88.espn.com
 +.watson.events.data.microsoft.com
 +.watson.live.com
 +.watson.microsoft.com
@@ -3576,6 +3585,7 @@ ad2001.medium.com
 adapt.t-mobile.com
 adfinix-ads.sgp1.cdn.digitaloceanspaces.com
 adimages.fra1.cdn.digitaloceanspaces.com
+adobeanalytics.vice.com
 ads-adfinix-staging.sgp1.cdn.digitaloceanspaces.com
 ads-adfinix-staging.sgp1.digitaloceanspaces.com
 ads-analytics.stellar.cnn.com
@@ -3584,6 +3594,7 @@ ads-image.production-public.tubi.io
 ads-pd.nbcuni.com
 ads-servebom-com.cdn.ampproject.org
 ads-thanhnien-vn.cdn.ampproject.org
+ads.adfox.ru
 ads.app.us-east-1.prod.cloud.netflix.net
 ads.global.ssl.fastly.net
 ads.itd.netflix.com
@@ -3595,6 +3606,7 @@ ads.sfo2.cdn.digitaloceanspaces.com
 ads.sourceforge.net
 ads.test.netflix.com
 ads.tritondigital.com
+ads.washingtonpost.com
 ads4.production-public.tubi.io
 adserver.global.ssl.fastly.net
 adshunter.fra1.digitaloceanspaces.com
@@ -3651,6 +3663,7 @@ assets.polarbyte.com
 at.cbsi.com
 auth--sso-trust.webflow.io
 b.siftscience.com
+banners.adfox.ru
 bc.nhk.jp
 beacon.dradis.netflix.com
 beacon.netflix.com
@@ -3741,6 +3754,7 @@ custprof.t-mobile.com
 cxad.cxense.com
 daplab.webflow.io
 darnuid.netflix.com
+data-ai.washingtonpost.com
 dd.nytimes.com
 dd.reuters.com
 device-api.urbanairship.com
@@ -3837,6 +3851,7 @@ lightstep.medium.systems
 lilys-0x800705b4-error-project.webflow.io
 lingnan.asia.qualtrics.com
 links.services.disqus.com
+links1.washingtonpost.com
 litix.digitalvideoplatform.com
 lm-publicities.nyc3.digitaloceanspaces.com
 log--in-auth-uphold.webflow.io
@@ -3887,6 +3902,7 @@ metrics.nvidia.com
 metrics.sourceforge.net
 metrics.t-mobile.com
 metrics.t-mobilemoney.com
+metrics.washingtonpost.com
 mjca-yijws.global.ssl.fastly.net
 mm-sdk-analytics.api.cx.metamask.io
 mms.cbslocal.com
@@ -3901,12 +3917,14 @@ mybbc-analytics.stage.files.bbci.co.uk
 mybbc.files.bbci.co.uk
 nativesdks.mparticle.com
 netcoislogin-zone.webflow.io
+nir.theregister.com
 nisarg-c-metric.medium.com
 nmtracking.netflix.com
 notice.t-mobile.com
 noticias-stats-bitban-com.cdn.ampproject.org
 now.t-mobile.com
 nvmos.nvidia.com
+ny77jj.washingtonpost.com
 oimg.nbcuni.com
 om.cbsi.com
 omega-order-tracking.gitbook.io
@@ -3949,6 +3967,7 @@ realtime.services.disqus.com
 remote-data.urbanairship.com
 rev.cbsi.com
 rover-analytics-dev.webflow.io
+s-adobeanalytics.vice.com
 s2s.mparticle.com
 sa.bbc.co.uk
 saa.cbsnews.com
@@ -3974,6 +3993,7 @@ smetrics.cnn.com
 smetrics.nvidia.com
 smetrics.t-mobile.com
 smetrics.t-mobilemoney.com
+smetrics.washingtonpost.com
 soportetuexperto-orange-es.webflow.io
 sp-eu.dev.polarbyte.com
 sp1cluster.cxense.com
@@ -3990,6 +4010,7 @@ stats-collector.cxense.com
 stats.bbc.co.uk
 stats.nhk.jp
 stats.nhk.or.jp
+stats.washingtonpost.com
 statsig.anthropic.com
 success-messages-and-error-messages.webflow.io
 sultan69--ad-pages-dev.cdn.ampproject.org
