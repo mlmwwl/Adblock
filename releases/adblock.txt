@@ -4,6 +4,7 @@
 +.20.178.149.34.bc.googleusercontent.com
 +.297616773877-prd-unifi-cloud-access-webrtc-logs.s3.us-west-2.amazonaws.com
 +.360.yahoo.com
++.3destate-analytics-prd-ggf0dthchue5c3b7.westeurope-01.azurewebsites.net
 +.3j0pw4ed7uac-a.akamaihd.net
 +.3p-geo.yahoo.com
 +.3p-udc.yahoo.com
@@ -20,6 +21,7 @@
 +.a-ring-fallback.msedge.net
 +.a-ring-ipv6only.msedge.net
 +.a-ring.msedge.net
++.a1-ws-analytics-pr.azurewebsites.net
 +.a1.mzstatic.com
 +.a47b-collector-alb-630215029.us-east-1.elb.amazonaws.com
 +.a47b-collector-eu-alb-1031015564.eu-west-1.elb.amazonaws.com
@@ -29,6 +31,7 @@
 +.abt.s3.yandex.net
 +.abtasty.com
 +.abtest-ld-v2.s3.eu-north-1.amazonaws.com
++.ac-monitor-weu.azurewebsites.net
 +.accesoenlinea.blob.core.windows.net
 +.accesspoints.googleapis.com
 +.account-track-sg-pubgw-bjscyjo-1156958859.ap-southeast-1.elb.amazonaws.com
@@ -99,6 +102,7 @@
 +.adagiobanner.s3.amazonaws.com
 +.adalliance-a.akamaihd.net
 +.adbreakmedia.s3.ap-south-1.amazonaws.com
++.adconfigproxy.azurewebsites.net
 +.addshoppers.s3.amazonaws.com
 +.addthis.com.edgekey.net
 +.adexchange.googleapis.com
@@ -277,6 +281,7 @@
 +.adtheorent-html5-ads.s3.amazonaws.com
 +.adtrack-php-loadbalancer-vpc-1246401395.eu-west-1.elb.amazonaws.com
 +.adv-pubmanager-dev.s3-sa-east-1.amazonaws.com
++.adv-web-tracking-logs.azurewebsites.net
 +.adv.yandex.com
 +.adv.yandex.ru
 +.advancelocal-adapter-image-uploads.s3.amazonaws.com
@@ -393,6 +398,7 @@
 +.analytics-listener.trafficmanager.net
 +.analytics-log.withhive.com.edgekey.net
 +.analytics-pillarfour-1105396686.us-east-1.elb.amazonaws.com
++.analytics-prd-tagging-app001.azurewebsites.net
 +.analytics-prod-alb-292764149.us-west-2.elb.amazonaws.com
 +.analytics-prod-load-balancer-836804867.eu-west-3.elb.amazonaws.com
 +.analytics-proxy-production-72829403.us-west-2.elb.amazonaws.com
@@ -412,6 +418,7 @@
 +.analytics.ae.com.edgekey.net
 +.analytics.aimtell.com.cdn.cloudflare.net
 +.analytics.atptour.com.cdn.cloudflare.net
++.analytics.azurwinetours.com
 +.analytics.bid.yahoo.com
 +.analytics.bigdata.samsung.com
 +.analytics.cadillac.com.edgekey.net
@@ -486,7 +493,9 @@
 +.android-context-data.googleapis.com
 +.androidtvchannels-pa.googleapis.com
 +.androidtvwatsonfe-pa.googleapis.com
++.anm.co.uk
 +.annonseweb.s3-eu-west-1.amazonaws.com
++.anonymous-api.azurewebsites.net
 +.aomicwallet.github.io
 +.apac.events.data.microsoft.com
 +.api-adservices.apple.com
@@ -495,6 +504,7 @@
 +.api-data-collector.s3.amazonaws.com
 +.api-event.falconnet.app.cdn.cloudflare.net
 +.api-pravoved.s3.amazonaws.com
++.api-prod-telemetry-eastus2.azurewebsites.net
 +.api-promo.samsungknowledge.com
 +.api.analytics.bitmex.com.cdn.cloudflare.net
 +.api.optimizely.com
@@ -523,8 +533,13 @@
 +.apiproxy-logging-s4-4e4dbfdf43752432.elb.eu-west-1.amazonaws.com
 +.apiproxy-logging-s4-a123fa8d414246ea.elb.us-west-2.amazonaws.com
 +.apm.yahoo.co.jp
++.app-adservice-prod-weu-01-b5bxc3cmamdmhkfx.westeurope-01.azurewebsites.net
 +.app-analytics-services.com
 +.app-defituna.github.io
++.app-fnsp-matomo-analytics-prod.azurewebsites.net
++.app-matomo-prd-weu1-app.azurewebsites.net
++.app-nn-telemetry-api-prod.azurewebsites.net
++.app-webapp-adv-demo-fueleu-euc9fxdxdfhcbra5.westeurope-01.azurewebsites.net
 +.app.optimizely.com
 +.app.response.adobesystemsinc.com
 +.appboycdn.com
@@ -561,6 +576,7 @@
 +.aralego.net
 +.argus-track-production-alb-1163396109.us-east-1.elb.amazonaws.com
 +.arubawebmailsession82.blob.core.windows.net
++.as-monitor-prod.azurewebsites.net
 +.as-ms-pro-loadbala-sugvjp2xlhjz-1716713284.eu-west-1.elb.amazonaws.com
 +.assets-momentum.akamaized.net
 +.assets.video.yahoo.net
@@ -589,6 +605,7 @@
 +.ay.delivery
 +.ayetstudios-files.s3.us-west-2.amazonaws.com
 +.az667904.vo.msecnd.net
++.azapp-adserver-prod.azurewebsites.net
 +.azurewatson.microsoft.com
 +.azurewatsontest.microsoft.com
 +.b-ring-fallback.msedge.net
@@ -649,6 +666,7 @@
 +.bernabenicole.s3.amazonaws.com
 +.best10cdn.blob.core.windows.net
 +.beta.apple.com
++.beur-hm-matomo-shared.azurewebsites.net
 +.bf-ad.net.26664.edgekey.net
 +.bfp.global.dual.dotomi.weighted.com.akadns.net
 +.bhv-analytics-prd-1854775698.us-east-1.elb.amazonaws.com
@@ -672,9 +690,11 @@
 +.bluestack-error-pages.s3.amazonaws.com
 +.books-analytics-events.apple.com
 +.books-analytics-events.news.apple-dns.net
++.borsvarlden-banners.azurewebsites.net
 +.bozuculo.z12.web.core.windows.net
 +.bpapi.apple.com
 +.bpu.samsungelectronics.com
++.bqstreamer.com
 +.branch.io
 +.braze.com
 +.brc-visio-telemetry.officeapps.live.com
@@ -707,6 +727,7 @@
 +.btv-du-prod-eventhub-streamanalytics.servicebus.windows.net
 +.bugly-prod-android-1521420252.us-west-1.elb.amazonaws.com
 +.bugsnag.com.cdn.cloudflare.net
++.bulba-ad-host-website.azurewebsites.net
 +.business-monitor-production.s3.eu-west-1.amazonaws.com
 +.business.samsungusa.com
 +.bv-analytics-js-prod.s3.amazonaws.com
@@ -733,6 +754,7 @@
 +.cc-api-data-stage.adobe.io
 +.cc-api-data.adobe.io
 +.cd-ladsp-com.s3.amazonaws.com
++.cdata-driver-telemetry.azurewebsites.net
 +.cdj-dap.s3-ap-northeast-1.amazonaws.com
 +.cdn-alliancegravity.s3.amazonaws.com
 +.cdn-app.optimizely.com
@@ -770,6 +792,7 @@
 +.chartboost.com.akamaized.net
 +.chartboosts.com
 +.checkip.amazonaws.com
++.checkout-analytics-us-p-b7f8b3hrdmakhvdq.eastus2-01.azurewebsites.net
 +.cheezwhiz.z9.web.core.windows.net
 +.chnsrv.com
 +.chromecontentsuggestions-pa.googleapis.com
@@ -777,6 +800,7 @@
 +.chromeuxreport.googleapis.com
 +.chs-matomo-1238305517.eu-west-2.elb.amazonaws.com
 +.cimage.adobe.com
++.cint-collector-usc.azurewebsites.net
 +.cirrus-full-snapshots-track-csv-v1-0-eu-prod.s3.eu-west-1.amazonaws.com
 +.cirrus-full-snapshots-track-csv-v1-0-eu-south-2-prod.s3.eu-south-2.amazonaws.com
 +.cirrus-full-snapshots-track-csv-v1-0-jp-prod.s3.us-west-2.amazonaws.com
@@ -806,6 +830,7 @@
 +.clearbitscripts.com
 +.clearblueshore.com
 +.clearbrain.com  
++.clgs-prodmus-analytics.azurewebsites.net
 +.clicks-inges-2kpotiq2exz9-741556541.us-east-2.elb.amazonaws.com
 +.client-telemetry.us-east-1.amazonaws.com
 +.client.optimizely.com
@@ -859,6 +884,7 @@
 +.conduit-beacon-usw2.mtvnservices.com.edgekey.net
 +.confiant-integrations.net
 +.connectio.s3.amazonaws.com
++.constructo-adserver-prod.azurewebsites.net
 +.content-analyticsadmin.googleapis.com
 +.content-analyticsdata.googleapis.com
 +.content-analyticsreporting.googleapis.com
@@ -872,6 +898,8 @@
 +.convertexperiments.com.edgekey.net
 +.convex-rr.global.dual.dotomi.weighted.com.akadns.net
 +.conviva.com
++.cookiemon-analytics.azurewebsites.net
++.cookietracking.azurewebsites.net
 +.cookiex.ngd.yahoo.com
 +.copilot-telemetry-service.githubusercontent.com
 +.copilot-telemetry.githubusercontent.com
@@ -886,6 +914,7 @@
 +.crash-reports.browser.yandex.net
 +.crash-reports.mozilla.com
 +.crash-stacks.mozilla.com
++.crash-stats.azurewebsites.net
 +.crash-stats.mozilla.com
 +.crash-stats.mozilla.org
 +.crash.corp.google.com
@@ -925,6 +954,7 @@
 +.ct.pinterest.com
 +.cumedago.z16.web.core.windows.net
 +.cxense.com.edgekey.net
++.cywyc-tracking-api-production.azurewebsites.net
 +.d.reddit.com
 +.d.yimg.com
 +.d303e3cdddb4ded4b6ff495a7b496ed5.s3.amazonaws.com
@@ -955,6 +985,7 @@
 +.debugbear.com
 +.dec-visio-telemetry.officeapps.live.com
 +.decibelinsight.net
++.decisions-analytics-prod.azurewebsites.net
 +.delivery-globaldhlauth.github.io
 +.demanding-accident.pro
 +.demanding-flight.com
@@ -996,6 +1027,7 @@
 +.diproton-ads-prod-us-west-2.hulu.com.akadns.net
 +.displayads-formats.googleusercontent.com
 +.disruptive-advertising.s3-us-west-2.amazonaws.com
++.distil-tracking-v4.azurewebsites.net
 +.dk-media.s3.amazonaws.com
 +.dls-account.di.atlas.samsung.com
 +.dls-ddc.dqa.samsung.com
@@ -1025,6 +1057,8 @@
 +.dqa-auth.di.atlas.samsung.com
 +.dr.yandex.net
 +.dr2.yandex.net
++.driver-analytics-web-service.azurewebsites.net
++.drone-scanner-metrics.azurewebsites.net
 +.drops-state-logs.s3.amazonaws.com
 +.drupalmetrics.ppg.apple.com
 +.ds-aksb-a.akamaihd.net
@@ -1135,6 +1169,7 @@
 +.extmaps-api.yandex.net
 +.eyeota.com
 +.eyeota.net
++.eyerim-gtm-tagging.azurewebsites.net
 +.f.convertkit.com.cdn.cloudflare.net
 +.f4c1547b-d668-498a-ad80-93d2a48d3812.rdbroker-g-us-r1.wvd.microsoft.com
 +.f4c1547b-d668-498a-ad80-93d2a48d3812.rdbroker.wvd.microsoft.com
@@ -1168,6 +1203,7 @@
 +.ffc-excel-telemetry.officeapps.live.com
 +.ffc-word-telemetry.officeapps.live.com
 +.ffe390afd658c19dcbf707e0597b846d.de
++.ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
 +.ffg-analyticsk3nvxfne4dp4s.servicebus.windows.net
 +.ficpromericaenlineahngt.z5.web.core.windows.net
 +.filamentapp.s3.amazonaws.com
@@ -1183,6 +1219,7 @@
 +.firewallinsights.googleapis.com
 +.fishtownanalytics-collector-1340672531.us-east-1.elb.amazonaws.com
 +.fkrkkmxsqeb5bj9r.s3.amazonaws.com
++.flashtalking.com
 +.flashtalking.com.edgekey.net
 +.flyinad-bucket83908e77-m1zawid3awth.s3.eu-central-1.amazonaws.com
 +.fmhy-net.s3.amazonaws.com
@@ -1190,21 +1227,25 @@
 +.footprints-pa.googleapis.com
 +.form-collect-1816714781.eu-west-1.elb.amazonaws.com
 +.forums-sonarr-tv.s3.dualstack.us-east-1.amazonaws.com
++.forward-analytics.azurewebsites.net
 +.foureyes-adpearance-com-440548151.us-west-2.elb.amazonaws.com
 +.fp.msedge.net
 +.fpt.commerce.adobe.com
 +.fpt.dfp.microsoft.com
 +.frc-visio-telemetry.officeapps.live.com
 +.freewheel-mtgx-tv.akamaized.net
++.freshatl.azurewebsites.net
 +.friends2follow-us.s3.amazonaws.com
 +.friendship.nbc.com.edgesuite.net
 +.frontend-event-api.hostinger.com.cdn.cloudflare.net
 +.frz-campaign-ads-brand-partners.s3.eu-west-1.amazonaws.com
 +.frz-campaign-ads-partners.s3.eu-west-1.amazonaws.com
 +.frz-campaign-ads-product.s3.eu-west-1.amazonaws.com
++.func-api-telemetry-prod.azurewebsites.net
 +.functional.events.data.microsoft.com
 +.fundingchoices.google.com
 +.fundingchoicesmessages.google.com
++.funker530-ads.azurewebsites.net
 +.fuvesepiwo.z1.web.core.windows.net
 +.fwdcmp-collector-elb-1068580620.us-east-1.elb.amazonaws.com
 +.fwmrm.net
@@ -1214,6 +1255,7 @@
 +.games.geo.hosted.espn.com
 +.ganon.yahoo.com
 +.gapromomanager-pa.googleapis.com
++.gardyn-prod-fa-fleet-monitoring.azurewebsites.net
 +.gateway-collector-eu-lb-406824233.eu-central-1.elb.amazonaws.com
 +.gateway-collector-prod-lb-603414359.us-east-1.elb.amazonaws.com
 +.gateway.bingviz.microsoftapp.net
@@ -1276,7 +1318,9 @@
 +.gssprt.jp
 +.gstatic.ru
 +.gtm-alb-tagging-production-1888971638.eu-central-1.elb.amazonaws.com
++.gtm-tagging-server-prd.azurewebsites.net
 +.gtrk.s3.amazonaws.com
++.h3v9p8x2q1r7-agckaeh6g2ehcaes.westeurope-01.azurewebsites.net
 +.h4g3z1-native.apple.web.app
 +.h4g3z1-native.samsung.web.app
 +.h4g3z1-native.winoffice.web.app
@@ -1298,15 +1342,18 @@
 +.home.compete.com.edgesuite.net
 +.homeq-widget.s3.eu-north-1.amazonaws.com
 +.hosted.stats.com.edgesuite.net
++.hosts.vggwebsitetrackingprod.azurewebsites.net
 +.hotel-ads-contact-form.withgoogle.com
 +.hotelembuguacu.blob.core.windows.net
 +.hotjar.com
 +.hotjar.io
 +.hotspot-web-analytics-website.s3.amazonaws.com
 +.htlb.casalemedia.com.cdn.cloudflare.net
++.htlbid.com
 +.html-load.cc
 +.html-load.com
 +.hubble-se-logs.s3.amazonaws.com
++.huddly-stats.azurewebsites.net
 +.hunt-saas-logs-ap.s3.ap-southeast-2.amazonaws.com
 +.hunt-saas-logs-eu.s3.eu-west-1.amazonaws.com
 +.hunt-saas-logs.s3.us-east-1.amazonaws.com
@@ -1413,8 +1460,10 @@
 +.iphonesubmissions.apple.com
 +.iphonesubmissions.apple.com.akadns.net
 +.iphonesubmissions.v.aaplimg.com
++.ir-tracking-uks.azurewebsites.net
 +.ir-tracking.trafficmanager.net
 +.iriscoremetadataprod.blob.core.windows.net
++.ironsight-analytics.azurewebsites.net
 +.irreverselookuptm.trafficmanager.net
 +.iseller-app-logs.s3.ap-southeast-1.amazonaws.com
 +.ism-adserver.s3-eu-west-1.amazonaws.com
@@ -1422,6 +1471,8 @@
 +.it-adt-playeranalytics-prod-lb-48df7ec15be9ee39.elb.eu-south-1.amazonaws.com
 +.its-ads-marketplace-725618906.us-east-1.elb.amazonaws.com
 +.iwork-events.apple.com
++.jabra-xpressonline-prd-analytics.azurewebsites.net
++.jacca-ads.azurewebsites.net
 +.jadserve.postrelease.com.akadns.net
 +.jakobinnendeko.blob.core.windows.net
 +.javascript-tracker-snowplow-static-site.s3.us-east-1.amazonaws.com
@@ -1459,14 +1510,17 @@
 +.k8s-sentryin-sentry-3dbc88579c-1400162058.ap-southeast-1.elb.amazonaws.com
 +.k8s-sentryk8-sentry-e14f207f7b-2145498619.us-east-1.elb.amazonaws.com
 +.k8s-umami-umaminex-06896a3d77-1894516666.ap-northeast-1.elb.amazonaws.com
++.kargo.com
 +.kbox-analytics-backup.s3-accelerate.amazonaws.com
 +.kbox-analytics-backup.s3.amazonaws.com
 +.kbox-analytics-prod.s3-accelerate.amazonaws.com
 +.kbox-analytics-prod.s3.amazonaws.com
 +.kcp-analytics-api-alb-291674519.us-west-2.elb.amazonaws.com
++.keha-matomo-sdg-prod.azurewebsites.net
 +.khanmarine.blob.core.windows.net
 +.kic-ngfts.lge.com.edgekey.net
 +.kinstruments-measurements.s3-external-1.amazonaws.com
++.kjdsfjisdfjr23.azurewebsites.net
 +.kmwatson.events.data.microsoft.com
 +.kmwatsonc.events.data.microsoft.com
 +.kmx-prod-client-logs-510999252863.s3.ap-northeast-2.amazonaws.com
@@ -1499,12 +1553,14 @@
 +.legacywatson.trafficmanager.net
 +.lgforbes.akamaized.net
 +.liadm.com
++.lightboxapi.azurewebsites.net
 +.limango-sentry-203333057.eu-central-1.elb.amazonaws.com
 +.linkplay-logs-europe.s3.eu-central-1.amazonaws.com
 +.listing.yahoo.co.jp
 +.litix.io
 +.live-hero-marketing-ad-images-bucket-2jfiupt9yrmy.s3.amazonaws.com
 +.live-matomo-1805527886.eu-west-2.elb.amazonaws.com
++.live-tfs-omnilytics.azurewebsites.net
 +.live.mozillamessaging.com
 +.livechat.s3.amazonaws.com
 +.livepage.apple.com
@@ -1576,6 +1632,7 @@
 +.luckyorange.com
 +.luna-aggregated-metrics-prod.s3.amazonaws.com
 +.lynx-prod-beacon-alb-498367235.us-east-1.elb.amazonaws.com
++.m365-visitor-stats.azurewebsites.net
 +.ma1169-r.analytics.edgekey.net
 +.ma1226-r.analytics.edgekey.net
 +.ma1275-r.analytics.edgekey.net
@@ -1619,6 +1676,7 @@
 +.matomo-wpmudev-analytics1-925643958.us-east-2.elb.amazonaws.com
 +.matomo-wpmudev-analytics2-742601353.us-east-2.elb.amazonaws.com
 +.matomo-wpmudev-analytics3-898024192.us-east-2.elb.amazonaws.com
++.matomo.azurewebsites.net
 +.matomo.epo.org.cdn.cloudflare.net
 +.matomo.garmin.com.cdn.cloudflare.net
 +.matomo.mdpi.com.edgekey.net
@@ -1656,6 +1714,7 @@
 +.measure.office.net.edgesuite.net
 +.measure.office.net.in.intinfra.com
 +.measure.office.net.us.intinfra.com
++.mecrowdstrikesnowstandalone.azurewebsites.net
 +.media-adv.market.yandex.ru
 +.media-adv.vs.market.yandex.net
 +.media-adv.yandex.com
@@ -1675,6 +1734,7 @@
 +.metrica.yandex.ru
 +.metrics-awsvpnclient.us-east-1.amazonaws.com
 +.metrics-config.icloud.com
++.metrics-production-ingress-api-h8exd2gpebfwbebh.uksouth-01.azurewebsites.net
 +.metrics-sentry.cvshealth.com.edgekey.net
 +.metrics.adobe.com
 +.metrics.adobeprimetime.com
@@ -1734,6 +1794,7 @@
 +.my-org-cloudtrail-logs.s3.us-east-1.amazonaws.com
 +.my.itunes.apple.com
 +.mycu.socu.com.cdn.cloudflare.net
++.mymenu-log-events-to-blob.azurewebsites.net
 +.myscoop-tracking.googlecode.com
 +.na1e-ccsdk.services.adobe.com
 +.nanit-cameras-logs.s3.amazonaws.com
@@ -1760,6 +1821,7 @@
 +.newsharecounts.s3-us-west-2.amazonaws.com
 +.nextdaymedia-ads.s3.amazonaws.com
 +.nexxtv-events.servicebus.windows.net
++.ngws-data-collector.azurewebsites.net
 +.nidilinuf.z7.web.core.windows.net
 +.ninja.akamaized.net
 +.nitrous-analytics.s3.amazonaws.com
@@ -1844,6 +1906,7 @@
 +.overlay-track-prod-1373846336.us-east-1.elb.amazonaws.com
 +.p-ads-api-webelb-w8l8cmhnaoq6-1812800753.ap-southeast-2.elb.amazonaws.com
 +.p-dany-analytics-1643478883.us-west-2.elb.amazonaws.com
++.p-n.io
 +.p-visitor-tracking.s3.ap-south-1.amazonaws.com
 +.p3p.yahoo.com
 +.pa.yahoo.com
@@ -1858,6 +1921,7 @@
 +.pangle-ads.com.edgesuite.net
 +.pangle.io.edgekey.net
 +.papilio-ad.s3.amazonaws.com
++.parsely.com
 +.partiality.itunes-apple.com.akadns.net
 +.partiality.itunes.apple.com
 +.partiality.itunes.apple.com.edgekey.net
@@ -1873,6 +1937,7 @@
 +.pc-tc.s3-eu-west-1.amazonaws.com
 +.pclick.yahoo.com
 +.pdc-case-tracking.s3.us-gov-west-1.amazonaws.com
++.pdf-suite-gtm-tagging-prd-cc-1.azurewebsites.net
 +.peoplestackwebexperiments-pa.clients6.google.com
 +.perf.store.on.epicgames.com
 +.performance-partners.apple.com
@@ -1883,6 +1948,7 @@
 +.pet-insulin-tracker--jamesmontemagno.github.app
 +.petrolprices-advertising.s3.eu-west-2.amazonaws.com
 +.pf.events.data.microsoft.com
++.pfbx-api-logging-euw-prod-linux.azurewebsites.net
 +.pgtbr1-excel-telemetry-vip.officeapps.live.com
 +.pgtbr1-powerpoint-telemetry-vip.officeapps.live.com
 +.pgtbr1-word-telemetry-vip.officeapps.live.com
@@ -1937,6 +2003,7 @@
 +.piano.io
 +.pianoasmr.com
 +.pianomedia.eu
++.pinpoll-tracking-live-windows.azurewebsites.net
 +.pipe.aria.microsoft.com
 +.piwik-elb-1414030010.us-east-1.elb.amazonaws.com
 +.piwik.wikimedia.org
@@ -1972,6 +2039,7 @@
 +.plusone.google.com
 +.pmdipads-a.akamaihd.net
 +.pnekru6pxrum-a.akamaihd.net
++.pocketfull-api-prod.azurewebsites.net
 +.polarcdn-engine.com
 +.polarcdn-pentos.com
 +.polarcdn-static.com
@@ -2007,6 +2075,7 @@
 +.prebidjs-hg-ads-dev.s3.eu-central-1.amazonaws.com
 +.preview-kmkonline.akamaized.net
 +.probe.icloud.com
++.prod-ace-analytics-fdhfg6gycjfmcmg7.centralus-01.azurewebsites.net
 +.prod-adserver-1897467939.ap-south-1.elb.amazonaws.com
 +.prod-adservices-prod-alb-lb-213069934.us-west-1.elb.amazonaws.com
 +.prod-analytics-events-lb-1831464947.us-east-1.elb.amazonaws.com
@@ -2014,6 +2083,7 @@
 +.prod-bts-track.s3.us-east-1.amazonaws.com
 +.prod-cac1-gateway-tracking-d0301b9d8473749f.elb.ca-central-1.amazonaws.com
 +.prod-dem-collector-elb-611025824.eu-west-1.elb.amazonaws.com
++.prod-dfm-proxy-connext.azurewebsites.net
 +.prod-dsp-tracker-alb-386115591.us-east-1.elb.amazonaws.com
 +.prod-eh-v1-analytics.servicebus.windows.net
 +.prod-enho-logs.s3.amazonaws.com
@@ -2027,6 +2097,7 @@
 +.prod-eventhub-analytics.servicebus.windows.net
 +.prod-ew1-telemetry-bucket.s3.eu-west-1.amazonaws.com
 +.prod-ew1-telemetry-cs-bucket.s3.eu-west-1.amazonaws.com
++.prod-forum-proxy-connext.azurewebsites.net
 +.prod-front-ads-1236801017.us-west-2.elb.amazonaws.com
 +.prod-ingress-telemetry-4c22fc0d5ec1dd2e.elb.us-east-1.amazonaws.com
 +.prod-logs-skyegloup.s3.amazonaws.com
@@ -2103,6 +2174,8 @@
 +.rad.microsoft.com
 +.radarsubmissions.apple.com
 +.radarsubmissions.apple.com.akadns.net
++.rai-amp-telemetry-ingestion.azurewebsites.net
++.raptor-telemetry-api.azurewebsites.net
 +.ras.yahoo.com
 +.raven-prod-device-log.s3.eu-west-1.amazonaws.com
 +.rawtelemetry-east.servicebus.windows.net
@@ -2125,11 +2198,15 @@
 +.rfihub.com
 +.rfihub.com.akadns.net
 +.rfihub.net
++.rg-dkv-we-gtmss-pro-tagging-server.azurewebsites.net
++.rgcore-tracking-us.azurewebsites.net
 +.richmedia.yimg.com
 +.rkdms.com
 +.rlcdn.com
++.rmgdapfnccsharpprd.azurewebsites.net
 +.rmn-cw-prd-s3-ad-platform-api.s3.amazonaws.com
 +.rmn-dbi-prd-s3-ad-platform-api.s3.amazonaws.com
++.roivenue-measurement.azurewebsites.net
 +.romeccs.microsoft.com
 +.rpc-tapjoy-com-lb-1378811527.us-east-1.elb.amazonaws.com
 +.rtxpx-a.akamaihd.net
@@ -2156,6 +2233,7 @@
 +.rum.us-gov-west-1.amazonaws.com
 +.rum.us-west-1.amazonaws.com
 +.rum.us-west-2.amazonaws.com
++.rvrc-gtm-tagging-production.azurewebsites.net
 +.rvzr-a.akamaihd.net
 +.rw-yieldmo-com-1233107411.us-east-1.elb.amazonaws.com
 +.rw-yieldmo-com-1857737650.us-west-2.elb.amazonaws.com
@@ -2223,6 +2301,7 @@
 +.sas-ads-v3-load-balancer-1340544848.eu-west-1.elb.amazonaws.com
 +.sas-ads-v3-load-balancer-576131235.us-east-1.elb.amazonaws.com
 +.sca.samsung.com
++.schibsted-test-cookietracking.azurewebsites.net
 +.scone-pa.clients6.google.com
 +.scone-pa.googleapis.com
 +.scorecardresearch.com
@@ -2264,6 +2343,7 @@
 +.seedapp-creative.s3.amazonaws.com
 +.seek.intel.com
 +.self-events-data.trafficmanager.net
++.sendvsfeedback2.azurewebsites.net
 +.sensors-pro-analytics-nlbtoalb-1031ce3406151b89.elb.ap-northeast-1.amazonaws.com
 +.sentry-2014716246.eu-central-1.elb.amazonaws.com
 +.sentry-512737696.us-east-2.elb.amazonaws.com
@@ -2286,6 +2366,7 @@
 +.server-side-tagging-alb-1532029273.eu-central-1.elb.amazonaws.com
 +.server.events.data.microsoft.com
 +.service-analytics.warbyparker.com.cdn.cloudflare.net
++.serving-sys.com
 +.servitlan001.z13.web.core.windows.net
 +.settings-sandbox.data.microsoft.com
 +.sgp-ads-heytapmobi-pubgw-819691514.ap-southeast-1.elb.amazonaws.com
@@ -2294,6 +2375,7 @@
 +.sgp-ads-realmemobile-pubgw-863378568.ap-southeast-1.elb.amazonaws.com
 +.sgp-mobile-sec-heytapmobi-pubgw-1205822126.ap-southeast-1.elb.amazonaws.com
 +.sgp-opush-heytapmobile-pubgw-2070388785.ap-southeast-1.elb.amazonaws.com
++.sgtm-laattapiste-tagging-server.azurewebsites.net
 +.sgtm.build.com.edgekey.net
 +.sgtm.dhgate.com.cdn.cloudflare.net
 +.sgtm.factory.jcrew.com.edgekey.net
@@ -2377,6 +2459,7 @@
 +.sqm.telemetry.microsoft.com
 +.ss-telemetry.servicebus.windows.net
 +.ssc-prod-collector-lb-2088113435.eu-north-1.elb.amazonaws.com
++.ssgtm-fazer-tagging-server.azurewebsites.net
 +.ssgtm.bike24.fi.edgesuite.net
 +.ssky-ads-serving-web-east-1-206894837.us-east-1.elb.amazonaws.com
 +.ssky-vop-tracking-1576957348.us-east-1.elb.amazonaws.com
@@ -2763,6 +2846,7 @@
 +.tb2hgc4485.execute-api.us-east-1.amazonaws.com
 +.tbiodpt0-spsksjd33.s3.eu-north-1.amazonaws.com
 +.tdk-tags.s3-ap-northeast-1.amazonaws.com
++.teads.tv
 +.teads.tv.edgekey.net
 +.teamproject.substack.com
 +.teams-events-data.trafficmanager.net
@@ -2833,6 +2917,7 @@
 +.terminal-log-nginx-1135366763.us-west-2.elb.amazonaws.com
 +.termius-session-logs.s3.amazonaws.com
 +.test.samsungrm.net
++.texas-football-scores-ads-api.azurewebsites.net
 +.tf-presigned-url-us-west-2-prod-log-collector-bucket.s3.us-west-2.amazonaws.com
 +.tf-prod-ssgtm-container-1624717518.eu-west-1.elb.amazonaws.com
 +.tgtus1-excel-telemetry-vip.officeapps.live.com
@@ -2852,6 +2937,7 @@
 +.titan-tracker-balancer-1544302032.us-east-2.elb.amazonaws.com
 +.tm-analytics-pr.trafficmanager.net
 +.tm-enrollment-telemetry-datacore.trafficmanager.net
++.tng-analytics-api-eu.azurewebsites.net
 +.tns-counter.ru
 +.ton.twimg.com
 +.toolbar.google.com
@@ -2898,6 +2984,7 @@
 +.tracking.smartbusiness.samsung.com
 +.tracking.unrealengine.com
 +.tracking.wikimedia.de
++.trackonomics.net
 +.tracksp.cloudflare.com
 +.tradestrategy.substack.com
 +.trafficfuelpixel.s3-us-west-2.amazonaws.com
@@ -2916,6 +3003,7 @@
 +.trk2.pinterest.com
 +.tronssan.github.io
 +.tru.am
++.ts-wn-log-bmggb9bcacbsd6df.westus-01.azurewebsites.net
 +.tsm-js.s3.amazonaws.com
 +.tul-onlinesales-ad-server.s3.ap-south-1.amazonaws.com
 +.turn.com.akadns.net
@@ -2930,10 +3018,12 @@
 +.ucs.query.yahoo.com
 +.udc.yahoo.com
 +.udcm.yahoo.com
++.ueisnifferengine2.azurewebsites.net
 +.ugcbrainient-a.akamaihd.net
 +.ugdtimg.com
 +.ugdturner.com
 +.uhytajrtpo-a.akamaihd.net
++.uikit-usage-tracking-gegdbnhvdsb6geh5.germanywestcentral-01.azurewebsites.net
 +.uk-mobile.events.data.microsoft.com
 +.ukc-onenote-telemetry.officeapps.live.com
 +.ukc-visio-telemetry.officeapps.live.com
@@ -2943,6 +3033,7 @@
 +.ums-telemetry-cn-heytap-gyjujcm-841667316.ap-southeast-1.elb.amazonaws.com
 +.umwatson.events.data.microsoft.com
 +.umwatsonc.events.data.microsoft.com
++.unikrew-faceoff-telemetry.azurewebsites.net
 +.uniproject.substack.com
 +.uniquest-prod-ad-100367287.ap-northeast-1.elb.amazonaws.com
 +.unityads.edgesuite.net
@@ -2994,6 +3085,7 @@
 +.v21-ad.ap4r.com.cdn.cloudflare.net
 +.v21-feed-ad.ap4r.com.cdn.cloudflare.net
 +.v6analytics.htmedia.in.edgekey.net
++.valo-telemetry.azurewebsites.net
 +.valueclick.com.edgekey.net
 +.vast-monitoring-lb-1947038731.ap-south-1.elb.amazonaws.com
 +.vast2-dual-124287323.us-east-1.elb.amazonaws.com
@@ -3014,6 +3106,7 @@
 +.vmax4-event-tracker-ecs-lb-1094226222.ap-south-1.elb.amazonaws.com
 +.vmax4-prod-tracker-lb-1539806324.ap-southeast-3.elb.amazonaws.com
 +.vnwjlu7aoh.execute-api.ap-south-1.amazonaws.com
++.vodus-api-serverless.azurewebsites.net
 +.voilatile-pa.googleapis.com
 +.voiparound.com
 +.voipbuster.com
@@ -3025,6 +3118,7 @@
 +.vortex.data.trafficmanager.net
 +.vortex.hulu.com.akadns.net
 +.voxgratia.org
++.voyadoanalytics.azurewebsites.net
 +.vpc-trk-10d1b1f8032805fc.elb.us-east-1.amazonaws.com
 +.vssris8yu8f2lyxenfoxeacjm26fun.s3.eu-west-1.amazonaws.com
 +.vstelemetry.trafficmanager.net
@@ -3039,6 +3133,8 @@
 +.w3-reporting.reddit.com
 +.w4o7aea80ss3-a.akamaihd.net
 +.w88.espn.com
++.wa-cgccn-gtm-tagging.azurewebsites.net
++.wapp-gtm-server-tagging.azurewebsites.net
 +.watson.events.data.microsoft.com
 +.watson.live.com
 +.watson.microsoft.com
@@ -3055,16 +3151,21 @@
 +.web-metrica.yandex.ru
 +.web3projects.substack.com
 +.webanalytics-1823844529.ap-southeast-2.elb.amazonaws.com
++.webcontentassessor.com
 +.webinsight.s3.amazonaws.com
 +.webo-prod-was-gtm-event-handler.s3.us-east-1.amazonaws.com
 +.webpublic.substack.com
++.webtracking-azfun-prod.azurewebsites.net
 +.webvisor.com
 +.webvisor.org
 +.webvisor.ru
 +.webwap.org
 +.webwave.dev
++.westjet-dpa-logs-prod-app.azurewebsites.net
++.wetracker.azurewebsites.net
 +.weus2watcab01.blob.core.windows.net
 +.weus2watcab02.blob.core.windows.net
++.wh-api-analytics.azurewebsites.net
 +.wickedif.pro
 +.wickedimpact.pro
 +.wickedreports.com
@@ -3079,12 +3180,14 @@
 +.wildcard46.go-mpulse.net.edgekey.net
 +.win-global-asimov-leafs-events-data.trafficmanager.net
 +.win10-trt.msedge.net
++.window-shoppers.azurewebsites.net
 +.wintricksbanner.googlepages.com
 +.wirelessdevicestats.googleapis.com
 +.wiz-cloudtrail-logs-v1.s3.eu-central-1.amazonaws.com
 +.wknd.ai
 +.wl.aniview.com.edgekey.net
 +.wlvast.aniview.com.edgekey.net
++.wompanalytics.azurewebsites.net
 +.word-telemetry.officeapps.live.com
 +.word-telemetry.wac.trafficmanager.net
 +.workspaces-client-logs-prod-dub.s3.eu-west-1.amazonaws.com
@@ -3105,6 +3208,7 @@
 +.wyze-firmware-log.s3.us-west-2.amazonaws.com
 +.wyze-o-metrics-service-s3.s3.us-west-2.amazonaws.com
 +.x-ad-assets.s3.amazonaws.com
++.x9t7g4m2qk2.azurewebsites.net
 +.xbasugigqiuegiwqdbsx.s3.ap-northeast-1.amazonaws.com
 +.xgapromomanager-pa.googleapis.com
 +.xlauncher-logs.s3.amazonaws.com
@@ -3172,6 +3276,7 @@ abproxy.production-public.tubi.io
 accuradio.tritondigital.com
 activity.api.bbc.co.uk
 activity.api.bbc.com
+ad-choices.spot.im
 ad-demokawanslot-online.cdn.ampproject.org
 ad-doubleclick-net.cdn.ampproject.org
 ad-jp-ap-valuecommerce-com.cdn.ampproject.org
@@ -3191,6 +3296,8 @@ ads-adfinix-staging.sgp1.cdn.digitaloceanspaces.com
 ads-adfinix-staging.sgp1.digitaloceanspaces.com
 ads-analytics.stellar.cnn.com
 ads-api.duolingo.com
+ads-cdn.openweb.com
+ads-configs-cdn.openweb.com
 ads-image.production-public.tubi.io
 ads-pd.nbcuni.com
 ads-servebom-com.cdn.ampproject.org
@@ -3209,7 +3316,9 @@ ads.test.netflix.com
 ads.tritondigital.com
 ads.washingtonpost.com
 ads4.production-public.tubi.io
+adserver.connatix.com
 adserver.global.ssl.fastly.net
+adserver.nydailynews.com
 adshunter.fra1.digitaloceanspaces.com
 adtech.nflximg.net
 adverrd.global.ssl.fastly.net
@@ -3219,6 +3328,7 @@ ae.nflximg.net
 ago-web-5aaeffb781873d1ad32b8e4f51e67d1.webflow.io
 aidsvc.netflix.com
 airbnb-1869ae.webflow.io
+ak-events-collector.spot.im
 als-svc.nytimes.com
 amazon-s3-file-uploads.webflow.io
 amplitude.map.fastly.net
@@ -3249,6 +3359,7 @@ angel-analytics.webflow.io
 anymind360-com.cdn.ampproject.org
 apcdp.apnews.com
 api-analytics.t-mobile.cz
+api-diagnostics.revenuecat.com
 api.cxense.com
 api.mp.nbcuni.com
 api.statsig.com
@@ -3260,9 +3371,11 @@ ark.tubi.video
 art-gallery-128.webflow.io
 as.sourceforge.net
 ascpqnj-oam.global.ssl.fastly.net
+assets.connatix.com
 assets.polarbyte.com
 at.cbsi.com
 auth--sso-trust.webflow.io
+az667904.vo.msecnd.net
 b.siftscience.com
 banners.adfox.ru
 bc.nhk.jp
@@ -3272,6 +3385,7 @@ beacon.us-west-2.internal.dradis.netflix.com
 beaconimages-prod.dradis.netflix.com
 beaconimages.netflix.net
 benpsignin-portal.webflow.io
+bi-events-collector.spot.im
 bidbarrel.cbsnews.com
 biytmartlogine.webflow.io
 business-analytics-app.webflow.io
@@ -3315,11 +3429,15 @@ canopy-analytics-staging.webflow.io
 cargo-tracker.gitbook.io
 cbsileads.com
 cdn-bongdadem-net.cdn.ampproject.org
+cdn-clavis-advancelocal-prod.arc-perso.aws.arc.pub
 cdn-media.brightline.tv
 cdn.cxense.com
 cdn.polarbyte.com
 cdn.siftscience.com
+ck.connatix.com
+cks.connatix.com
 clarium.global.ssl.fastly.net
+clavis-advancelocal-prod.arc-perso.aws.arc.pub
 click-nativclick-com.cdn.ampproject.org
 client-metrics-prod.global.ssl.fastly.net
 cn.cbsimg.net
@@ -3332,6 +3450,7 @@ collector.cdp.cnn.com
 collector.cdp.cnn.io
 combine.urbanairship.com
 comcluster.cxense.com
+conference.convertkit.com
 confiant-integrations.global.ssl.fastly.net
 config2.mparticle.com
 confirmation-error-status-card.webflow.io
@@ -3361,6 +3480,7 @@ dd.reuters.com
 device-api.urbanairship.com
 dfapvmql-q.global.ssl.fastly.net
 diffuser-cdn.app-us1.com
+direct-events-collector.spot.im
 dns-clientinfo.vtg.paramount.tech
 doppler-beacon.cbsivideo.com
 doppler-client-events.cbsivideo.com
@@ -3375,7 +3495,9 @@ eshops-uet-tags.ams3.cdn.digitaloceanspaces.com
 et.nytimes.com
 etc-cdn-staging.ams3.digitaloceanspaces.com
 eth-login.webflow.io
+event-stream.spot.im
 event.asus.com
+events-collector.spot.im
 events.brightline.tv
 events.gfe.nvidia.com
 events.launchdarkly.com
@@ -3386,6 +3508,7 @@ events.production.us1.pgw-pci.klarna.net
 evt.klarna.app
 excess.duolingo.com
 express-met-vgwort-de.cdn.ampproject.org
+f.convertkit.com
 facebookrecreation.webflow.io
 fastly-insights.com
 fastly3.cedexis.fastlylb.net
@@ -3394,7 +3517,9 @@ federated-id.live.api.bbc.co.uk
 fid.agkn.com
 flat-login-signup.webflow.io
 formly-custom-error-messages.webflow.io
+fp.nydailynews.com
 fyrsbckgi-c.global.ssl.fastly.net
+g2i.nydailynews.com
 galaxy-client-reports.gog.com
 galaxy-log.gog.com
 geo-location-api.gx.nvidia.com
@@ -3415,6 +3540,7 @@ gtm.cloudinary.com
 gtm.sourceforge.net
 gumeminlogi.webflow.io
 gx-target-experiments-frontend-api.gx.nvidia.com
+h689.nydailynews.com
 hbid.ams3.cdn.digitaloceanspaces.com
 healthguides.cnn.com
 helen-template.webflow.io
@@ -3431,11 +3557,14 @@ ichnaea.netflix.com
 ichnaea.us-east-1.internal.dradis.netflix.com
 ichnaea.us-east-2.internal.dradis.netflix.com
 id.cxense.com
+id.nbcuni.com
 images-aud.sourceforge.net
 improving.duckduckgo.com
 includemodal.global.ssl.fastly.net
 infinite-pixel-tracking.gitbook.io
 infinity-ground.gitbook.io
+ins.connatix.com
+insights-tag.convertkit.com
 iplookup.asus.com
 ithub.global.ssl.fastly.net
 itrustcapitaalloginn.webflow.io
@@ -3453,6 +3582,7 @@ lilys-0x800705b4-error-project.webflow.io
 lingnan.asia.qualtrics.com
 links.services.disqus.com
 links1.washingtonpost.com
+lit.connatix.com
 litix.digitalvideoplatform.com
 lm-publicities.nyc3.digitaloceanspaces.com
 log--in-auth-uphold.webflow.io
@@ -3496,6 +3626,7 @@ metrics-content.duckduckgo.com
 metrics-cpa.webflow.io
 metrics-fox.webflow.io
 metrics-latercera-com.cdn.ampproject.org
+metrics-logger.spot.im
 metrics.cbslocal.com
 metrics.cnn.com
 metrics.duolingo.com
@@ -3531,6 +3662,7 @@ om.cbsi.com
 omega-order-tracking.gitbook.io
 oms.wsj.com
 ondemand-ad-server.tritondigital.com
+open-api.spot.im
 optimizely.wsj.com
 orange-cattle-analytics.webflow.io
 osimg.nbcuni.com
@@ -3541,13 +3673,18 @@ pbc.wsj.com
 pblog.wsj.com
 perf.hsforms.com
 perfmetrics.netflix.com
+perso.aws.arc.pub
 pix.nbcuni.com
+pix.spot.im
 pixel-rtve.global.ssl.fastly.net
 pixel.clickslogistics.com
 pixel.production-public.tubi.io
+pixel.wp.com
 pixel4.production-public.tubi.io
 pixels.mparticle.com
+pl.connatix.com
 plasma-wallet.webflow.io
+player.sendtonews.com
 polls.services.disqus.com
 prd-appstats.nvidia.com
 presentationtracking.netflix.com
@@ -3558,6 +3695,7 @@ production-evvnt-plugin-herokuapp-com.global.ssl.fastly.net
 pt.pixellb.com
 public---sso--ndax--x---cdn.webflow.io
 public-analytics.t-mobile.cz
+publisher-assets.spot.im
 px-ads-linkedin-com.cdn.ampproject.org
 r-mradx-net.cdn.ampproject.org
 r.bbci.co.uk
@@ -3565,10 +3703,13 @@ rainmaker.production-public.tubi.io
 rainmaker4.production-public.tubi.io
 realtime-logger.production-public.tubi.io
 realtime.services.disqus.com
+recirculation.spot.im
 remote-data.urbanairship.com
 rev.cbsi.com
 rover-analytics-dev.webflow.io
 s-adobeanalytics.vice.com
+s.osano.com
+s2l.sendtonews.com
 s2s.mparticle.com
 sa.bbc.co.uk
 saa.cbsnews.com
@@ -3583,6 +3724,7 @@ secure---sso---robinhood---com-cdn.webflow.io
 sentry.sourceforge.net
 service.cmp.oath.com
 services.brightline.tv
+session.nydailynews.com
 sgtm.qualtrics.com
 share-na3.hsforms.com
 showbet-static.ams3.digitaloceanspaces.com
@@ -3598,6 +3740,7 @@ smetrics.washingtonpost.com
 soportetuexperto-orange-es.webflow.io
 sp-eu.dev.polarbyte.com
 sp1cluster.cxense.com
+spotops.spot.im
 ssl--vg03-met-vgwort-de.cdn.ampproject.org
 sso--en--cobo--trsuted-auth.webflow.io
 sso-nndax-io-auth.webflow.io
@@ -3612,6 +3755,7 @@ stats.bbc.co.uk
 stats.nhk.jp
 stats.nhk.or.jp
 stats.washingtonpost.com
+stats.wp.com
 statsig.anthropic.com
 success-messages-and-error-messages.webflow.io
 sultan69--ad-pages-dev.cdn.ampproject.org
@@ -3619,10 +3763,12 @@ support-portal.qualtrics.com
 survey-analytics-slider.webflow.io
 survey-analytics.webflow.io
 survey-eu1.hsforms.com
+t.spot.im
 t.wayfair.map.fastly.net
 tag29.ams3.digitaloceanspaces.com
 tags.wsj.com
 tapdaq-adverts.global.ssl.fastly.net
+tattle.api.osano.com
 tealium.cbsnews.com
 telemetry.api.bbci.co.uk
 telemetry.apig.isp.t-mobile.com
@@ -3636,6 +3782,10 @@ tm-gta5-prod.ros.rockstargames.com
 tmfp.klarna.com
 tms.fmm.io
 topview-analytics-llc.webflow.io
+track.nydaily-news-reports.com
+track.nydaily-newsreports.com
+track.nydailynews-reports.com
+track.nydailynewsreports.com
 tracker-ai.gitbook.io
 tracker-metricool-com.cdn.ampproject.org
 tracker.metricool.com
@@ -3645,6 +3795,7 @@ tronlink-walletextension.webflow.io
 umami-thai-food.webflow.io
 umto.cnn.com
 up.nytimes.com
+updates.convertkit.com
 upload-widget.cloudinary.com
 user-signals.production-public.tubi.io
 v9banners-com.cdn.ampproject.org
@@ -3671,6 +3822,7 @@ webflow-animation-crash-no-animations.webflow.io
 webflow-interactions-crash-course.webflow.io
 weborama.ams3.cdn.digitaloceanspaces.com
 widget.cloudinary.com
+widgets.wp.com
 wix.livechatinc.com 
 wkxppshj-qx.global.ssl.fastly.net
 woohoo.sfo2.digitaloceanspaces.com
